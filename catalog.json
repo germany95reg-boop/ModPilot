@@ -1,0 +1,473 @@
+{
+  "version": 2,
+  "updated": "2026-10-28",
+  "game": "gta4",
+  "mods": [
+    {
+      "id": "console-vegetation",
+      "name": "Console Vegetation",
+      "author": "Tomasak, Ash_735, Attramet и др.",
+      "category": "graphics",
+      "sizeMb": 13,
+      "descRu": "Деревья и кусты как в консольной версии: плотнее и сочнее, без «пластиковой» листвы ПК-версии.",
+      "descEn": "Trees and bushes as on consoles: denser and richer, without the PC version's plastic-looking foliage.",
+      "page": "https://github.com/Tomasak/Console-Visuals",
+      "github": {
+        "repo": "Tomasak/Console-Visuals",
+        "asset": "Console.Vegetation.zip"
+      }
+    },
+    {
+      "id": "console-peds",
+      "name": "Console Peds",
+      "author": "Tomasak, nastyyaboi и др.",
+      "category": "graphics",
+      "sizeMb": 88,
+      "descRu": "Модели и текстуры прохожих из консольной версии — меньше «мыла» и странных цветов.",
+      "descEn": "Pedestrian models and textures from the console version — less blur and fewer odd colours.",
+      "page": "https://github.com/Tomasak/Console-Visuals",
+      "github": {
+        "repo": "Tomasak/Console-Visuals",
+        "asset": "Console.Peds.zip"
+      }
+    },
+    {
+      "id": "console-fences",
+      "name": "Console Fences",
+      "author": "Tomasak и др.",
+      "category": "graphics",
+      "sizeMb": 1.3,
+      "descRu": "Заборы и сетки как на консолях: прозрачность и сглаживание краёв без мерцания.",
+      "descEn": "Fences and grates as on consoles: proper transparency and smooth edges without shimmering.",
+      "page": "https://github.com/Tomasak/Console-Visuals",
+      "github": {
+        "repo": "Tomasak/Console-Visuals",
+        "asset": "Console.Fences.zip"
+      }
+    },
+    {
+      "id": "console-anims",
+      "name": "Console Animations",
+      "author": "Tomasak и др.",
+      "category": "gameplay",
+      "sizeMb": 24,
+      "descRu": "Анимации персонажей из консольной версии, которые на ПК были заменены или урезаны.",
+      "descEn": "Character animations from the console version that the PC port replaced or cut down.",
+      "page": "https://github.com/Tomasak/Console-Visuals",
+      "github": {
+        "repo": "Tomasak/Console-Visuals",
+        "asset": "Console.Anims.zip"
+      }
+    },
+    {
+      "id": "console-clothing",
+      "name": "Console Clothing",
+      "author": "Tomasak и др.",
+      "category": "graphics",
+      "sizeMb": 17,
+      "descRu": "Одежда героев в консольном виде: правильные текстуры и цвета.",
+      "descEn": "The heroes' clothes as on consoles: correct textures and colours.",
+      "page": "https://github.com/Tomasak/Console-Visuals",
+      "github": {
+        "repo": "Tomasak/Console-Visuals",
+        "asset": "Console.Clothing.zip"
+      }
+    },
+    {
+      "id": "console-loading",
+      "name": "Console Loading Screens",
+      "author": "Tomasak и др.",
+      "category": "ui",
+      "sizeMb": 27,
+      "descRu": "Экраны загрузки из консольной версии.",
+      "descEn": "Loading screens from the console version.",
+      "page": "https://github.com/Tomasak/Console-Visuals",
+      "github": {
+        "repo": "Tomasak/Console-Visuals",
+        "asset": "Console.Loading.Screens.zip"
+      }
+    },
+    {
+      "id": "console-hud",
+      "name": "Console HUD",
+      "author": "Tomasak и др.",
+      "category": "ui",
+      "sizeMb": 0.1,
+      "descRu": "Интерфейс на экране как на консолях.",
+      "descEn": "The on-screen HUD as on consoles.",
+      "page": "https://github.com/Tomasak/Console-Visuals",
+      "github": {
+        "repo": "Tomasak/Console-Visuals",
+        "asset": "Console.HUD.zip"
+      }
+    },
+    {
+      "id": "xbox-rain-droplets",
+      "name": "Xbox Rain Droplets",
+      "author": "ThirteenAG",
+      "category": "graphics",
+      "sizeMb": 2.6,
+      "descRu": "Капли дождя и брызги на «экране камеры» в дождь и у воды, как в консольных играх Rockstar.",
+      "descEn": "Rain and splash droplets on the camera in rain and near water, like Rockstar's console games.",
+      "noteRu": "Плагин: для работы нужен ASI Loader (есть в FusionFix).",
+      "noteEn": "A plugin: needs the ASI Loader (part of FusionFix).",
+      "page": "https://github.com/ThirteenAG/XboxRainDroplets",
+      "github": {
+        "repo": "ThirteenAG/XboxRainDroplets",
+        "tag": "gtaiv",
+        "asset": "GTAIV.XboxRainDroplets.zip"
+      }
+    },
+    {
+      "id": "console-select-menu",
+      "name": "Console Select Menu",
+      "author": "_AG",
+      "category": "ui",
+      "sizeMb": 0.5,
+      "descRu": "Выбор эпизода (IV, TLAD, TBoGT) при запуске — как в консольной версии.",
+      "descEn": "Episode selection (IV, TLAD, TBoGT) at start — as in the console version.",
+      "noteRu": "Только для Complete Edition 1.2.0.59.",
+      "noteEn": "Complete Edition 1.2.0.59 only.",
+      "page": "https://github.com/gennariarmando/iv-console-select-menu",
+      "github": {
+        "repo": "gennariarmando/iv-console-select-menu",
+        "asset": "ConsoleSelectMenuIV.zip"
+      }
+    },
+    {
+      "id": "radio-restoration",
+      "name": "Radio Restoration",
+      "author": "Tomasak и др.",
+      "category": "sound",
+      "sizeMb": 974,
+      "descRu": "Возвращает песни на радио, вырезанные из Steam-версии из-за истёкших лицензий.",
+      "descEn": "Brings back the radio songs removed from the Steam version when their licences ran out.",
+      "noteRu": "Большой архив — около 1 ГБ.",
+      "noteEn": "A large archive — about 1 GB.",
+      "page": "https://github.com/Tomasak/GTA-Downgraders/releases/tag/iv-latest",
+      "github": {
+        "repo": "Tomasak/GTA-Downgraders",
+        "tag": "iv-latest",
+        "asset": "Radio.Restoration.Mod*.rar"
+      }
+    },
+    {
+      "id": "hq-misc-pack",
+      "name": "Higher Resolution Miscellaneous Pack",
+      "author": "Ash_735",
+      "category": "graphics",
+      "descRu": "Текстуры мелочей в высоком разрешении: вывески, мусор, предметы — город выглядит чётче.",
+      "descEn": "High-resolution textures for small things: signs, litter, props — the city looks sharper.",
+      "page": "https://www.nexusmods.com/gta4/mods/357"
+    },
+    {
+      "id": "vehicle-pack",
+      "name": "Vehicle Pack",
+      "author": "Ash_735",
+      "category": "cars",
+      "descRu": "Улучшенные текстуры стандартных машин: фары, решётки, салоны, номера.",
+      "descEn": "Better textures for the stock cars: lights, grilles, interiors, plates.",
+      "page": "https://www.nexusmods.com/gta4/mods/282?tab=files"
+    },
+    {
+      "id": "libertycity-plates",
+      "name": "LibertyCityPlates",
+      "author": "Ash_735",
+      "category": "cars",
+      "descRu": "Уникальные номера на каждой машине вместо одинаковых.",
+      "descEn": "A unique licence plate on every car instead of identical ones.",
+      "page": "https://www.nexusmods.com/gta4/mods/875"
+    },
+    {
+      "id": "transport-physics",
+      "name": "Correction of physical parameters of transport",
+      "author": "Ushan27",
+      "category": "cars",
+      "descRu": "Машины легче в управлении: меньше заносов и «плавающей» подвески, характер каждой сохранён.",
+      "descEn": "Cars are easier to drive: less sliding and floaty suspension, each keeps its character.",
+      "page": "https://www.nexusmods.com/gta4/mods/714"
+    },
+    {
+      "id": "fidelity-popcycle",
+      "name": "Fidelity Popcycle",
+      "author": "Chunk",
+      "category": "world",
+      "descRu": "Разнообразнее люди и машины на улицах в духе оригинала: город живее, без чужеродных добавок.",
+      "descEn": "More varied people and cars on the streets in the original's spirit: a livelier city without foreign additions.",
+      "page": "https://www.nexusmods.com/gta4/mods/405"
+    },
+    {
+      "id": "restored-peds",
+      "name": "Restored Pedestrians",
+      "author": "Attramet",
+      "category": "world",
+      "descRu": "Возвращает прохожих, вырезанных из финальной игры или встречавшихся только в бете.",
+      "descEn": "Brings back pedestrians cut from the final game or seen only in the beta.",
+      "page": "https://gtaforums.com/topic/981864-restored-pedestrians/"
+    },
+    {
+      "id": "more-visible-interiors",
+      "name": "More Visible Interiors",
+      "author": "Attramet",
+      "category": "world",
+      "descRu": "Интерьеры зданий видны с улицы через окна и двери.",
+      "descEn": "Building interiors are visible from the street through windows and doors.",
+      "noteRu": "Может добавить подгрузку объектов на глазах.",
+      "noteEn": "May add some visible pop-in.",
+      "page": "https://gtaforums.com/topic/974099-more-visible-interiors/"
+    },
+    {
+      "id": "potential-grim",
+      "name": "Potential Grim",
+      "author": "Lord Criminal",
+      "category": "world",
+      "descRu": "Больше разных прохожих, исправленное поведение и отношения банд.",
+      "descEn": "More varied pedestrians, fixed behaviour and gang relationships.",
+      "page": "https://gtaforums.com/topic/945227-iveflc-potential-grim/"
+    },
+    {
+      "id": "improved-anims",
+      "name": "Improved Animations Pack",
+      "author": "B Dawg, C1aude_III",
+      "category": "gameplay",
+      "descRu": "Исправляет ошибки анимаций оружия.",
+      "descEn": "Fixes weapon animation bugs.",
+      "page": "https://gtaforums.com/topic/958625-improved-animations-pack/"
+    },
+    {
+      "id": "bullet-penetration",
+      "name": "Bullet Penetration — Minimal Edition",
+      "author": "Internet Rob",
+      "category": "gameplay",
+      "descRu": "Пули пробивают стёкла, например лобовые стёкла машин.",
+      "descEn": "Bullets go through glass such as windscreens.",
+      "page": "https://gtaforums.com/topic/989496-bullet-penetration/"
+    },
+    {
+      "id": "liberty-loadout",
+      "name": "Liberty Loadout",
+      "author": "Delusional94",
+      "category": "gameplay",
+      "descRu": "Колесо выбора оружия и радио как в GTA V.",
+      "descEn": "A GTA V style weapon and radio wheel.",
+      "noteRu": "Плагин для папки plugins.",
+      "noteEn": "A plugin for the plugins folder.",
+      "page": "https://www.nexusmods.com/gta4/mods/1226"
+    },
+    {
+      "id": "liberty-shoulder",
+      "name": "Liberty Shoulder",
+      "author": "Delusional94",
+      "category": "gameplay",
+      "descRu": "Смена плеча камеры при прицеливании.",
+      "descEn": "Switch the camera shoulder while aiming.",
+      "noteRu": "Плагин для папки plugins.",
+      "noteEn": "A plugin for the plugins folder.",
+      "page": "https://www.nexusmods.com/gta4/mods/1229"
+    },
+    {
+      "id": "grass-fix",
+      "name": "Grass and Procedural Props Fix",
+      "author": "iammrmikeman",
+      "category": "fixes",
+      "descRu": "Трава и мелкие предметы больше не исчезают после долгой игры.",
+      "descEn": "Grass and small props no longer disappear after playing for a while.",
+      "noteRu": "Изредка может вызывать вылет.",
+      "noteEn": "May occasionally crash.",
+      "page": "https://www.nexusmods.com/gta4/mods/1230"
+    },
+    {
+      "id": "solitude",
+      "name": "Solitude",
+      "author": "Chunk",
+      "category": "graphics",
+      "descRu": "Мягкая настройка освещения и неба в духе оригинала — без кислотных цветов.",
+      "descEn": "A gentle lighting and sky tweak in the original's spirit — no garish colours.",
+      "page": "https://www.nexusmods.com/gta4/mods/417"
+    },
+    {
+      "id": "hq-map",
+      "name": "HQ Map",
+      "author": "Alkimical",
+      "category": "ui",
+      "descRu": "Карта в меню паузы в высоком разрешении.",
+      "descEn": "A high-resolution pause menu map.",
+      "noteRu": "Имеет смысл при разрешении 1440p и выше.",
+      "noteEn": "Worth it at 1440p and above.",
+      "page": "https://www.nexusmods.com/gta4/mods/356"
+    },
+    {
+      "id": "iv-presence",
+      "name": "IV-Presence",
+      "author": "ItsClonkAndre",
+      "category": "ui",
+      "descRu": "Показывает в Discord, где вы в Либерти-Сити и чем заняты.",
+      "descEn": "Shows in Discord where you are in Liberty City and what you're doing.",
+      "page": "https://gtaforums.com/topic/975850-iv-presence/"
+    },
+    {
+      "id": "eflc-vehicle-pack",
+      "name": "EFLC Vehicle Addon Pack",
+      "author": "7urbo1ag",
+      "category": "cars",
+      "descRu": "Машины из The Lost and Damned и The Ballad of Gay Tony в основной игре — отдельными машинами, с правильными звуками и названиями.",
+      "descEn": "Vehicles from The Lost and Damned and The Ballad of Gay Tony in the main game — as separate cars, with proper sounds and names.",
+      "page": "https://gtaforums.com/topic/972433-eflc-vehicle-addon-pack-for-gta-iv-with-proper-audio-and-naming/"
+    },
+    {
+      "id": "traffic-params",
+      "name": "New game parameters for transport and traffic",
+      "author": "Ushan27",
+      "category": "world",
+      "descRu": "Больше разных машин и людей, у каждого района свой характер трафика.",
+      "descEn": "More varied cars and people; each district gets its own kind of traffic.",
+      "noteRu": "Не ставьте вместе с Fidelity Popcycle — оба меняют одно и то же.",
+      "noteEn": "Don't install together with Fidelity Popcycle — both change the same thing.",
+      "page": "https://www.nexusmods.com/gta4/mods/616"
+    },
+    {
+      "id": "ped-actions",
+      "name": "Various Pedestrian Actions",
+      "author": "Attramet",
+      "category": "world",
+      "descRu": "Прохожие делают больше: курят, звонят, болтают — добавлены и доделаны действия, которые были в игре не до конца.",
+      "descEn": "Pedestrians do more: smoke, make calls, chat — adds and completes actions the game left unfinished.",
+      "page": "https://gtaforums.com/topic/976318-various-pedestrian-actions/"
+    },
+    {
+      "id": "restored-vegetation",
+      "name": "Restored Vegetation",
+      "author": "Attramet",
+      "category": "world",
+      "descRu": "Возвращает деревья и кусты, убранные из финальной версии или стоявшие только в бете.",
+      "descEn": "Brings back trees and bushes removed from the final version or present only in the beta.",
+      "page": "https://gtaforums.com/topic/984591-restored-trees-position/"
+    },
+    {
+      "id": "restored-graffiti",
+      "name": "Restored Graffiti",
+      "author": "Attramet",
+      "category": "world",
+      "descRu": "Возвращает граффити, вырезанные из финальной игры.",
+      "descEn": "Restores graffiti cut from the final game.",
+      "page": "https://gtaforums.com/topic/1005785-restored-graffiti/"
+    },
+    {
+      "id": "props-restoration",
+      "name": "Props Restoration",
+      "author": "Attramet",
+      "category": "world",
+      "descRu": "Возвращает предметы на улицах из беты и ранних версий игры.",
+      "descEn": "Brings back street props from the beta and pre-release versions.",
+      "page": "https://gtaforums.com/topic/1004764-props-restoration/"
+    },
+    {
+      "id": "characters-fixes",
+      "name": "Trilogy Characters Fixes",
+      "author": "TheYoshiPunch, GTA Love и др.",
+      "category": "fixes",
+      "descRu": "Персонажи выглядят одинаково в IV и в эпизодах: исправлены несостыковки моделей и текстур.",
+      "descEn": "Characters look the same in IV and the episodes: model and texture mismatches fixed.",
+      "page": "https://gtaforums.com/topic/927583-grand-theft-auto-iv-and-episodes-from-liberty-city-characters-fixes/"
+    },
+    {
+      "id": "outfit-texture-fixes",
+      "name": "Player Outfit Texture Fixes",
+      "author": "B Dawg",
+      "category": "fixes",
+      "descRu": "Убирает зеленоватый оттенок с одежды героев.",
+      "descEn": "Removes the greenish tint from the heroes' clothes.",
+      "page": "https://gtaforums.com/topic/925011-player-outfit-texture-fixes"
+    },
+    {
+      "id": "luis-textures",
+      "name": "Remove Luis Texture Compression",
+      "author": "lettersandnumb192, B Dawg",
+      "category": "fixes",
+      "descRu": "Луис из TBoGT больше не выглядит зеленоватым: текстуры без порчи от сжатия.",
+      "descEn": "Luis from TBoGT no longer looks greenish: textures without compression damage.",
+      "page": "https://www.nexusmods.com/gta4/mods/1401"
+    },
+    {
+      "id": "broker-bridge-fix",
+      "name": "Broker Bridge and Electric Wires Appearance Fix",
+      "author": "yarrabandi",
+      "category": "fixes",
+      "descRu": "Правильный вид Брокерского моста и проводов.",
+      "descEn": "Correct look for the Broker Bridge and power lines.",
+      "page": "https://www.gtainside.com/en/gta4/mods/214695-broker-bridge-and-electric-wires-appearance-fix/"
+    },
+    {
+      "id": "schottler-fix",
+      "name": "Schottler Parked Vehicles Fix",
+      "author": "Callistonian",
+      "category": "fixes",
+      "descRu": "Машины в районе Schottler больше не паркуются криво.",
+      "descEn": "Cars in Schottler are no longer parked wrong.",
+      "page": "https://www.moddb.com/mods/schottler-parked-vehicles-fix"
+    },
+    {
+      "id": "track-jackets-fix",
+      "name": "Track Jackets Fix",
+      "author": "Niikowo",
+      "category": "fixes",
+      "descRu": "Исправлено освещение спортивных курток.",
+      "descEn": "Fixes the shading of track jackets.",
+      "page": "https://www.nexusmods.com/gta4/mods/773"
+    },
+    {
+      "id": "boccino-shirt-fix",
+      "name": "Ray Boccino Shirt Fix",
+      "author": "DeathWrench",
+      "category": "fixes",
+      "descRu": "Исправлены текстуры рубашки Рэя Боччино.",
+      "descEn": "Fixes Ray Boccino's shirt textures.",
+      "page": "https://www.nexusmods.com/gta4/mods/959"
+    },
+    {
+      "id": "hq-pigeons",
+      "name": "High Quality Pigeons",
+      "author": "Supreme Dear Leader",
+      "category": "graphics",
+      "descRu": "Голуби (те самые 200 штук) с хорошими моделями и текстурами.",
+      "descEn": "Pigeons (yes, those 200) with proper models and textures.",
+      "page": "https://www.gtainside.de/gta4/mods/166924-high-quality-pigeons/"
+    },
+    {
+      "id": "subway-fix",
+      "name": "Yes Way On The Subway",
+      "author": "ServalEd",
+      "category": "gameplay",
+      "descRu": "В миссии «No Way On The Subway» цель больше не бессмертна — её можно убить раньше.",
+      "descEn": "In \"No Way On The Subway\" the target is no longer invincible — you can take him out early.",
+      "page": "https://www.gtainside.de/en/gta4/mods/200052-yes-way-on-the-subway-kill-jim-early/"
+    },
+    {
+      "id": "escuela-sleep",
+      "name": "Escuela of the Sleep",
+      "author": "ServalEd",
+      "category": "gameplay",
+      "descRu": "В миссии «Escuela of the Street» соперники, как и вы, не соблюдают правила — гонка честнее.",
+      "descEn": "In \"Escuela of the Street\" rival drivers ignore traffic laws like you — a fairer race.",
+      "page": "https://www.nexusmods.com/gta4/mods/507"
+    },
+    {
+      "id": "plane-paths",
+      "name": "Plane Flight Path Improvements",
+      "author": "C4PT41N BOMB4RD",
+      "category": "world",
+      "descRu": "Самолёты над городом летают по реалистичным маршрутам.",
+      "descEn": "Planes over the city fly realistic routes.",
+      "page": "https://www.gtagaming.com/plane-flight-path-improvements-f33591.html"
+    },
+    {
+      "id": "traffic-screech",
+      "name": "Reduced Traffic Screech",
+      "author": "GladiTek",
+      "category": "sound",
+      "descRu": "Меньше режущего визга шин в трафике Алгонквина.",
+      "descEn": "Less piercing tyre screech in Algonquin traffic.",
+      "page": "https://gtaforums.com/topic/990400-reduced-traffic-screech-audio-tweak/"
+    }
+  ]
+}

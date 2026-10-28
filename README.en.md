@@ -17,6 +17,13 @@ A mod installer for **GTA IV: Complete Edition**. Drop a mod archive on the wind
 - reads the readme: which car to replace, lines for `vehicles.ide` / `handling.dat`, what else the mod needs;
 - fixes common author mistakes (e.g. invisible rims caused by a misnamed texture).
 
+**Mod catalog and game clean-up**
+- catalog: 44 checked mods for the Complete Edition + FusionFix; GitHub mods install in one click, for the rest ModPilot opens the author's page and picks the archive up from Downloads;
+- "Take my game apart": finds everything installed by hand (mods in `update`, plugins, scripts, files changed with OpenIV) and adopts it or moves it to quarantine;
+- OpenIV `.oiv` packages install without OpenIV — and can be undone;
+- save copies before every game launch, restore in one click;
+- graphics in one click: "Low-end PC / Balanced / Maximum" for FusionFix, with your old settings kept.
+
 **Convenience**
 - textured 3D preview: "before / after" right in the install wizard;
 - mod list: on/off, priority order, conflicts;
@@ -57,7 +64,7 @@ No .NET install needed — it is built into `ModPilot.exe`.
 - Car data (`vehicles.ide`, `handling.dat`, `carcols.dat`, `cargrp.dat`, `gta.dat`) is the original plus the lines of every enabled mod, also in `update`.
 - Anything replaced outside `update` is backed up and restored when the mod is removed.
 - Mod copies, backups and state live in the game folder: `IVModManager\`. Don't delete it while mods are installed.
-- Save games are never touched.
+- Save games are only copied (before each launch); they are written back only when you press "Restore".
 
 ## Beta limitations
 
