@@ -45,11 +45,24 @@ ModPilot downloads these from their official release pages when the user presses
 - **ScriptHookDotNet** (Complete Edition fork) — Hazard, Tomasak. https://github.com/Tomasak/gta4_scripthookdotnet
 - **IV-SDK .NET** — ClonkAndre. https://github.com/ClonkAndre/IV-SDK-DotNet
 - Microsoft Visual C++ Redistributable and DirectX End-User Runtime — Microsoft.
+- **ScriptHookVDotNet** — crosire and contributors (GTA V Enhanced build: Chiheb-Bacha). https://github.com/scripthookvdotnet/scripthookvdotnet
+- **Script Hook V** — Alexander Blade. Not downloaded by ModPilot: the app opens http://www.dev-c.com/gtav/scripthookv/.
+- **RageOpenV** (GTA V mods-folder loader, GPL-3.0) — martonp96, Chiheb-Bacha. https://github.com/Chiheb-Bacha/RageOpenV
+- **CodeWalker key data** (`magic.dat`, GTA V) — dexyfex. Downloaded from https://github.com/dexyfex/CodeWalker (fixed commit, checked by hash) to the user's PC when they prepare add-on cars; it is useless without the user's own game.
+
+### CodeWalker — GTA V NG decryption method
+https://github.com/dexyfex/CodeWalker
+
+    The MIT License (MIT)
+    Copyright (c) 2015 Neodymium; CodeWalker (c) dexyfex
+
+    (Same permission notice and disclaimer as above.) ModPilot's code is its own following the method
+    of CodeWalker's GTACrypto/GTAKeys (key selection, round structure, magic data layout).
 
 The built-in trainer (`IVMMTrainer.net.dll`) is ModPilot's own code; it runs on ScriptHookDotNet but does not contain it.
 
 ## Game data
 
-No game files are included. Encrypted game archives are read with a key taken from the user's own `GTAIV.exe` at run time; the key is not stored in the app.
+No game files are included. Encrypted game archives are read with a key taken from the user's own `GTAIV.exe` at run time; the key is not stored in the app. The same goes for GTA V: the AES key is found in the user's own `GTA5.exe`; NG keys come from the downloaded CodeWalker data, unlocked with that key on the user's PC.
 
-Grand Theft Auto IV is © Rockstar Games / Take-Two Interactive. ModPilot is not affiliated with them.
+Grand Theft Auto IV and Grand Theft Auto V are © Rockstar Games / Take-Two Interactive. ModPilot is not affiliated with them.

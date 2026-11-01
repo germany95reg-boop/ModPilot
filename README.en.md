@@ -1,12 +1,12 @@
-# ModPilot for GTA IV
+# ModPilot for GTA IV and GTA V
 
 [Русский](README.md) · **English**
 
-A mod installer for **GTA IV: Complete Edition**. Drop a mod archive on the window — it works out what the mod is and where it goes, shows the car in 3D and installs it without touching the game's original files. Plus problem diagnostics, a built-in in-game trainer and one-click "back to vanilla".
+A mod installer for **GTA IV: Complete Edition** and **GTA V Legacy**. Drop a mod archive on the window — it works out what the mod is and where it goes, shows the car in 3D and installs it without touching the game's original files. Plus problem diagnostics, a built-in in-game trainer and one-click "back to vanilla".
 
-> Version **1.0.0-beta** — the first public beta, tested on one game install. If something goes wrong, "My mods → Restore original" undoes everything; the log is at `%AppData%\IVModManager\log.txt`.
+> Version **1.2.0-beta** adds GTA V Legacy. It is a beta, tested on one install of each game. If something goes wrong, "My mods → Restore original" undoes everything; the log is at `%AppData%\IVModManager\log.txt`.
 
-**[⬇ Download ModPilot for GTA IV](https://github.com/germany95reg-boop/ModPilot/releases/latest)** — `ModPilot-…-setup.zip`, the installer is inside.
+**[⬇ Download ModPilot](https://github.com/germany95reg-boop/ModPilot/releases/latest)** — `ModPilot-…-setup.zip`, the installer is inside.
 
 ## Features
 
@@ -41,11 +41,25 @@ A mod installer for **GTA IV: Complete Edition**. Drop a mod archive on the wind
 - god mode, weapons, teleport, weather, time, traffic, free flight, autopilot, drift counter, chaos mode;
 - on-screen dashboard speedometer, customisable menu (colour, size, side).
 
+## GTA V Legacy (new in 1.2.0-beta)
+
+- a separate window for each GTA V install; the game's original files are not changed;
+- scripts and plugins: `.asi`, ScriptHookVDotNet scripts and their settings folders — install, on/off, order, remove with the old files restored;
+- components in one click: ScriptHookVDotNet, the `mods` folder loader (RageOpenV); Script Hook V from its author's page;
+- **add-on cars without OpenIV:** ModPilot copies `update.rpf` into `mods`, opens it with the key from your own `GTA5.exe`, installs the loader and raises the game's limits so many cars don't break loading; cars made from broken templates are fixed, Enhanced-only cars are switched off in Legacy;
+- **replacement cars** (`.yft`/`.ytd` named like a game car) as ModPilot's own pack over the original, off in one click;
+- **update.rpf mods** (graphics, weather): `.oiv` packages and `update.rpf` folders that replace game files, with switch-off and undo. Mods with nested archives, new files or xml edits still need OpenIV — the app says what isn't supported and changes nothing;
+- a GTA V mod catalog: checked GitHub mods in one click;
+- "Online without mods": every mod is off for a GTA Online session and comes back afterwards;
+- the crash doctor reads the game's own dumps and tells what crashed and where;
+- **built-in trainer** (F7): cars and add-ons, teleport, weather, time, favourites, teleport to collectibles — 50 spaceship parts, 50 letter scraps, 30 underwater finds, 27 peyote plants and 7 golden ones, read from your own game files and available from the start.
+
 ## Requirements
 
 - Windows 10 / 11 (64-bit);
 - GTA IV: Complete Edition (**FusionFix** recommended — the app installs it for you);
-- ScriptHookDotNet for the trainer (also one click).
+- or GTA V Legacy with **Script Hook V**; GTA V Enhanced: scripts only for now, no add-on cars;
+- for the trainer: ScriptHookDotNet (GTA IV) or ScriptHookVDotNet (GTA V), one click each.
 
 No .NET install needed — it is built into `ModPilot.exe`.
 
@@ -67,6 +81,8 @@ No .NET install needed — it is built into `ModPilot.exe`.
 - Save games are only copied (before each launch); they are written back only when you press "Restore".
 
 ## Beta limitations
+
+- GTA V: replacement cars, "Online without mods" and real graphics `.oiv` packages are little tested in game yet. Always switch on "Online without mods" before GTA Online.
 
 - **Known issue:** the trainer menu and speedometer may flicker with DXVK / FusionFix. This comes from ScriptHookDotNet drawing over the frame. A flicker-free fallback is "Settings → Drawing → game" in the trainer menu (Russian text is shown in Latin letters there).
 - Without FusionFix the mode is experimental: TLAD/TBoGT mods, custom add-on names and extended limits don't work.

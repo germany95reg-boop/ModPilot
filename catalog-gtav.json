@@ -1,0 +1,424 @@
+{
+  "version": 4,
+  "updated": "2026-11-01",
+  "game": "gtav",
+  "mods": [
+    {
+      "id": "menyoo",
+      "name": "Menyoo",
+      "author": "MAFINS, itsjustcurtis и др.",
+      "category": "gameplay",
+      "sub": "trainers",
+      "sizeMb": 6.1,
+      "descRu": "Самый известный трейнер для сюжетки: машины, оружие, погода, телепорт, а ещё редактор сцен — расставляй объекты, людей и машины где угодно.",
+      "descEn": "The best-known story mode trainer: vehicles, weapons, weather, teleport — plus a scene editor to place objects, people and cars anywhere.",
+      "noteRu": "Открывается клавишей F8.",
+      "noteEn": "Opens with F8.",
+      "requires": [
+        "scripthookv"
+      ],
+      "page": "https://github.com/itsjustcurtis/MenyooSP",
+      "github": {
+        "repo": "itsjustcurtis/MenyooSP",
+        "asset": "MenyooSP*.zip"
+      }
+    },
+    {
+      "id": "addon-spawner",
+      "name": "Add-On Vehicle Spawner",
+      "author": "ikt",
+      "category": "cars",
+      "sub": "spawners",
+      "sizeMb": 0.5,
+      "descRu": "Меню для вызова машин-аддонов: сам находит все установленные add-on машины, показывает их с картинками и названиями.",
+      "descEn": "A spawner for add-on cars: finds every installed add-on vehicle by itself and lists it with pictures and names.",
+      "requires": [
+        "scripthookv"
+      ],
+      "page": "https://github.com/ikt32/GTAVAddonLoader",
+      "github": {
+        "repo": "ikt32/GTAVAddonLoader",
+        "asset": "AddonSpawner-*-rel.zip"
+      }
+    },
+    {
+      "id": "handling-replacement",
+      "name": "Handling Replacement",
+      "author": "ikt",
+      "category": "cars",
+      "sub": "handling",
+      "sizeMb": 1.9,
+      "descRu": "Своя управляемость для отдельных машин без правки файлов игры: настройки подменяются на лету.",
+      "descEn": "Custom handling for individual cars without editing game files: swapped in on the fly.",
+      "requires": [
+        "scripthookv"
+      ],
+      "page": "https://github.com/ikt32/GTAVHandlingReplacement",
+      "github": {
+        "repo": "ikt32/GTAVHandlingReplacement",
+        "asset": "HandlingReplacement-*-rel.zip"
+      }
+    },
+    {
+      "id": "rt-handling-editor",
+      "name": "Real-time Handling Editor",
+      "author": "ikt",
+      "category": "cars",
+      "sub": "tools",
+      "sizeMb": 0.7,
+      "descRu": "Редактор управляемости прямо в игре: меняй сцепление, тормоза, подвеску и сразу чувствуй разницу.",
+      "descEn": "An in-game handling editor: change grip, brakes and suspension and feel it right away.",
+      "requires": [
+        "scripthookv"
+      ],
+      "page": "https://github.com/ikt32/GTAVHandlingEditor",
+      "github": {
+        "repo": "ikt32/GTAVHandlingEditor",
+        "asset": "RTHandlingEditor-*.zip"
+      }
+    },
+    {
+      "id": "lefix-speedo",
+      "name": "LeFix Speedometer",
+      "author": "LeFix, ikt",
+      "category": "ui",
+      "sub": "hud",
+      "sizeMb": 11,
+      "descRu": "Красивый настраиваемый спидометр с тахометром и передачами, несколько стилей.",
+      "descEn": "A good-looking customisable speedometer with rev counter and gear, several styles.",
+      "requires": [
+        "scripthookv"
+      ],
+      "page": "https://github.com/ikt32/gta5-speedometer",
+      "github": {
+        "repo": "ikt32/gta5-speedometer",
+        "asset": "LeFixSpeedo_V_*.zip"
+      }
+    },
+    {
+      "id": "lemonui",
+      "name": "LemonUI",
+      "author": "Lemon",
+      "category": "libs",
+      "sub": "libs",
+      "sizeMb": 1.3,
+      "descRu": "Библиотека меню для скриптов: многие .NET-скрипты не запускаются без неё. Ставьте, если автор скрипта её просит.",
+      "descEn": "A menu library for scripts: many .NET scripts won't start without it. Install it when a script's author asks for it.",
+      "requires": [
+        "scripthookv",
+        "shvdn"
+      ],
+      "page": "https://github.com/LemonUIbyLemon/LemonUI",
+      "github": {
+        "repo": "LemonUIbyLemon/LemonUI",
+        "asset": "LemonUI.zip"
+      }
+    },
+    {
+      "id": "simple-trainer",
+      "name": "Simple Trainer for GTA V",
+      "author": "sjaak327",
+      "category": "gameplay",
+      "sub": "trainers",
+      "descRu": "Огромный трейнер-классика: персонаж, машины, оружие, телепорт, мир, сохранение своих машин и нарядов.",
+      "descEn": "A huge classic trainer: player, vehicles, weapons, teleport, world, saved cars and outfits.",
+      "requires": [
+        "scripthookv"
+      ],
+      "page": "https://www.gta5-mods.com/scripts/simple-trainer-for-gtav"
+    },
+    {
+      "id": "enhanced-native-trainer",
+      "name": "Enhanced Native Trainer",
+      "author": "Zemanez и др.",
+      "category": "gameplay",
+      "sub": "trainers",
+      "descRu": "Расширенная версия стандартного трейнера Script Hook V: сотни функций в привычном меню. Есть версии для Legacy и Enhanced.",
+      "descEn": "An extended version of Script Hook V's native trainer: hundreds of features in a familiar menu. Versions for Legacy and Enhanced.",
+      "requires": [
+        "scripthookv"
+      ],
+      "editions": [
+        "legacy",
+        "enhanced"
+      ],
+      "page": "https://www.gta5-mods.com/scripts/enhanced-native-trainer-zemanez-and-others"
+    },
+    {
+      "id": "map-editor",
+      "name": "Map Editor",
+      "author": "Guadmaz",
+      "category": "world",
+      "sub": "map",
+      "descRu": "Редактор карты: расставляй объекты, дороги, рампы и сохраняй свои локации.",
+      "descEn": "A map editor: place props, roads and ramps and save your own locations.",
+      "requires": [
+        "scripthookv",
+        "shvdn"
+      ],
+      "page": "https://www.gta5-mods.com/scripts/map-editor"
+    },
+    {
+      "id": "packfile-limit-adjuster",
+      "name": "Packfile Limit Adjuster",
+      "author": "Unknown Modder",
+      "category": "fixes",
+      "sub": "game",
+      "descRu": "Снимает ограничение игры на число DLC-архивов: без него при большом количестве машин-аддонов игра вылетает или не грузится.",
+      "descEn": "Lifts the game's limit on DLC archives: without it, many add-on cars make the game crash or hang on load.",
+      "noteRu": "Ставьте, если машин-аддонов больше 10–15.",
+      "noteEn": "Install it once you have more than 10–15 add-on cars.",
+      "requires": [
+        "scripthookv"
+      ],
+      "page": "https://www.gta5-mods.com/tools/packfile-limit-adjuster"
+    },
+    {
+      "id": "heap-limit-adjuster",
+      "name": "Heap Limit Adjuster",
+      "author": "Unknown Modder",
+      "category": "fixes",
+      "sub": "game",
+      "descRu": "Даёт игре больше памяти под модели: убирает исчезающие машины и вылеты при большом числе модов.",
+      "descEn": "Gives the game more memory for models: fixes vanishing cars and crashes with lots of mods.",
+      "requires": [
+        "scripthookv"
+      ],
+      "page": "https://www.gta5-mods.com/tools/heap-limit-adjuster-600-mb-of-heap"
+    },
+    {
+      "id": "nativeui",
+      "name": "NativeUI",
+      "author": "Guadmaz",
+      "category": "libs",
+      "sub": "libs",
+      "descRu": "Библиотека меню для .NET-скриптов — многие старые скрипты (зомби, банды, погони) без неё не запустятся.",
+      "descEn": "A menu library for .NET scripts — many older scripts (zombies, gangs, chases) won't start without it.",
+      "requires": [
+        "scripthookv",
+        "shvdn"
+      ],
+      "page": "https://www.gta5-mods.com/scripts/nativeui"
+    },
+    {
+      "id": "better-chases",
+      "name": "Better Chases+",
+      "author": "Eddlm",
+      "category": "gameplay",
+      "sub": "combat",
+      "descRu": "Полиция ведёт себя умнее и честнее: не стреляет сразу за мелочи, грамотно преследует, вызывает подкрепление по ситуации.",
+      "descEn": "Smarter, fairer police: they don't open fire over trifles, chase properly and call backup when it makes sense.",
+      "requires": [
+        "scripthookv",
+        "shvdn"
+      ],
+      "page": "https://www.gta5-mods.com/scripts/better-chases"
+    },
+    {
+      "id": "simple-zombies",
+      "name": "Simple Zombies",
+      "author": "sollaholla",
+      "category": "gameplay",
+      "sub": "combat",
+      "descRu": "Зомби-апокалипсис в Лос-Сантосе: выживание, поиск припасов, база и крафт.",
+      "descEn": "A zombie apocalypse in Los Santos: survival, scavenging, a base and crafting.",
+      "noteRu": "Может понадобиться NativeUI (есть в каталоге).",
+      "noteEn": "May need NativeUI (in the catalog).",
+      "requires": [
+        "scripthookv",
+        "shvdn"
+      ],
+      "page": "https://www.gta5-mods.com/scripts/simple-zombies"
+    },
+    {
+      "id": "gang-and-turf",
+      "name": "Gang and Turf",
+      "author": "см. страницу мода",
+      "category": "world",
+      "sub": "peds",
+      "descRu": "Войны банд за районы: создайте свою банду, захватывайте территории, отбивайтесь от соперников.",
+      "descEn": "Gang wars over districts: start your own gang, take territory, fight off rivals.",
+      "noteRu": "Может понадобиться NativeUI (есть в каталоге).",
+      "noteEn": "May need NativeUI (in the catalog).",
+      "requires": [
+        "scripthookv",
+        "shvdn"
+      ],
+      "page": "https://www.gta5-mods.com/scripts/gang-and-turf"
+    },
+    {
+      "id": "no-boundary-limits",
+      "name": "No Boundary Limits",
+      "author": "см. страницу мода",
+      "category": "world",
+      "sub": "map",
+      "descRu": "Убирает невидимые стены на краю карты: можно уплыть и улететь далеко за остров.",
+      "descEn": "Removes the invisible walls at the map edge: sail and fly far beyond the island.",
+      "requires": [
+        "scripthookv"
+      ],
+      "page": "https://www.gta5-mods.com/scripts/no-boundary-limits"
+    },
+    {
+      "id": "drift-assist",
+      "name": "Drift Assist",
+      "author": "см. страницу мода",
+      "category": "cars",
+      "sub": "handling",
+      "descRu": "Помогает удерживать занос: машина легче уходит в дрифт и меньше срывается в разворот.",
+      "descEn": "Helps you hold a slide: easier to start a drift and less likely to spin out.",
+      "requires": [
+        "scripthookv"
+      ],
+      "page": "https://www.gta5-mods.com/scripts/drift-assist"
+    },
+    {
+      "id": "glowing-brakes",
+      "name": "Glowing Brake Discs",
+      "author": "ikt (идея LeeC2202)",
+      "category": "graphics",
+      "sub": "effects",
+      "sizeMb": 0.1,
+      "descRu": "Тормозные диски нагреваются и светятся при сильном торможении — как у спорткаров на трассе. Свои настройки для отдельных машин.",
+      "descEn": "Brake discs heat up and glow under hard braking, like race cars on track. Per-car settings.",
+      "requires": [
+        "scripthookv",
+        "shvdn"
+      ],
+      "page": "https://github.com/ikt32/GTAVGlowingBrakes",
+      "github": {
+        "repo": "ikt32/GTAVGlowingBrakes",
+        "asset": "GlowingBrakeDiscs-*-rel.zip"
+      }
+    },
+    {
+      "id": "manual-transmission",
+      "name": "Manual Transmission & Steering Wheel",
+      "author": "ikt",
+      "category": "cars",
+      "sub": "handling",
+      "sizeMb": 2.1,
+      "descRu": "Механическая коробка передач, сцепление, реалистичная тяга и поддержка руля с обратной связью. Один из самых известных модов на вождение.",
+      "descEn": "Manual gearbox, clutch, realistic drivetrain and steering wheel support with force feedback. One of the best-known driving mods.",
+      "noteRu": "Меню: клавиша [ или чит mtmenu. Утилита WheelSetup.exe для руля не ставится в игру — она есть в архиве на странице автора.",
+      "noteEn": "Menu: the [ key or the mtmenu cheat. The WheelSetup.exe wheel tool isn't put into the game — it's in the archive on the author's page.",
+      "requires": [
+        "scripthookv"
+      ],
+      "page": "https://github.com/ikt32/GTAVManualTransmission",
+      "github": {
+        "repo": "ikt32/GTAVManualTransmission",
+        "tag": "v5.6.1",
+        "asset": "Gears-*-Release.zip"
+      }
+    },
+    {
+      "id": "inverse-power",
+      "name": "InversePower",
+      "author": "ikt",
+      "category": "cars",
+      "sub": "handling",
+      "sizeMb": 0.2,
+      "descRu": "Машина не теряет мощность в заносе, как это обычно бывает в GTA V: дрифт и выход из поворота с газом становятся живыми.",
+      "descEn": "Cars no longer lose power while sliding, as GTA V normally does: drifting and powering out of corners feel alive.",
+      "requires": [
+        "scripthookv"
+      ],
+      "page": "https://github.com/ikt32/InversePower",
+      "github": {
+        "repo": "ikt32/InversePower",
+        "asset": "InversePower_Release-*.zip"
+      }
+    },
+    {
+      "id": "slam-it",
+      "name": "Slam It",
+      "author": "ikt",
+      "category": "cars",
+      "sub": "tuning",
+      "sizeMb": 0.1,
+      "descRu": "Занижение подвески ниже, чем позволяет Los Santos Customs, развал и вылет колёс — для стэнс-сборок.",
+      "descEn": "Lower the suspension beyond what Los Santos Customs allows, plus camber and track width — for stance builds.",
+      "requires": [
+        "scripthookv"
+      ],
+      "page": "https://github.com/ikt32/GTAVSlamIt",
+      "github": {
+        "repo": "ikt32/GTAVSlamIt",
+        "asset": "SlamIt_Release-*.zip"
+      }
+    },
+    {
+      "id": "vehicle-control",
+      "name": "Vehicle Control",
+      "author": "ikt",
+      "category": "cars",
+      "sub": "tools",
+      "sizeMb": 0.2,
+      "descRu": "Управляйте своей машиной на расстоянии через меню, не садясь в неё.",
+      "descEn": "Control your vehicle remotely from a menu without getting in.",
+      "requires": [
+        "scripthookv"
+      ],
+      "page": "https://github.com/ikt32/GTAVVehicleControl",
+      "github": {
+        "repo": "ikt32/GTAVVehicleControl",
+        "asset": "VehicleControl_v*-release.zip"
+      }
+    },
+    {
+      "id": "ikt-speedo",
+      "name": "iktSpeedo",
+      "author": "ikt",
+      "category": "ui",
+      "sub": "hud",
+      "sizeMb": 0.4,
+      "descRu": "Спидометр в стиле Need for Speed: Underground.",
+      "descEn": "A Need for Speed: Underground-style speedometer.",
+      "requires": [
+        "scripthookv"
+      ],
+      "page": "https://github.com/ikt32/GTAVSpeedo",
+      "github": {
+        "repo": "ikt32/GTAVSpeedo",
+        "asset": "iktSpeedo-*-rel.zip"
+      }
+    },
+    {
+      "id": "simple-fuel",
+      "name": "Simple Fuel",
+      "author": "LeFix, ikt",
+      "category": "gameplay",
+      "sub": "realism",
+      "sizeMb": 0.2,
+      "descRu": "У машин появляется топливо: бензин тратится в пути, заправляться нужно на АЗС.",
+      "descEn": "Cars get fuel: it burns as you drive, refill at gas stations.",
+      "requires": [
+        "scripthookv"
+      ],
+      "page": "https://github.com/ikt32/gta5-simplefuel",
+      "github": {
+        "repo": "ikt32/gta5-simplefuel",
+        "asset": "SimpleFuel_V_*.zip"
+      }
+    },
+    {
+      "id": "dial-accuracy-fix",
+      "name": "Dial Accuracy Fix",
+      "author": "ikt",
+      "category": "fixes",
+      "sub": "game",
+      "sizeMb": 0.1,
+      "descRu": "Стрелки приборов на панели машины показывают точную скорость и обороты, а не примерные, как в игре.",
+      "descEn": "The dashboard needles show the real speed and revs instead of the game's rough values.",
+      "requires": [
+        "scripthookv"
+      ],
+      "page": "https://github.com/ikt32/GTAVDialAccuracyFix",
+      "github": {
+        "repo": "ikt32/GTAVDialAccuracyFix",
+        "asset": "DialAccuracyFix-*-Release.zip"
+      }
+    }
+  ]
+}
