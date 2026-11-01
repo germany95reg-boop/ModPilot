@@ -4,7 +4,7 @@
 
 A mod installer for **GTA IV: Complete Edition** and **GTA V Legacy**. Drop a mod archive on the window — it works out what the mod is and where it goes, shows the car in 3D and installs it without touching the game's original files. Plus problem diagnostics, a built-in in-game trainer and one-click "back to vanilla".
 
-> Version **1.2.1-beta**: GTA V Legacy, with a map editor and a handling editor in the trainer. It is a beta, tested on one install of each game. If something goes wrong, "My mods → Restore original" undoes everything; the log is at `%AppData%\IVModManager\log.txt`.
+> Version **1.2.2-beta**: the interface in 10 languages; GTA V Legacy, with a map editor and a handling editor in the trainer. It is a beta, tested on one install of each game. If something goes wrong, "My mods → Restore original" undoes everything; the log is at `%AppData%\IVModManager\log.txt`.
 
 **[⬇ Download ModPilot](https://github.com/germany95reg-boop/ModPilot/releases/latest)** — `ModPilot-…-setup.zip`, the installer is inside.
 
@@ -25,6 +25,7 @@ A mod installer for **GTA IV: Complete Edition** and **GTA V Legacy**. Drop a mo
 - graphics in one click: "Low-end PC / Balanced / Maximum" for FusionFix, with your old settings kept.
 
 **Convenience**
+- the interface in 10 languages: English, Russian, Ukrainian, German, French, Spanish, Portuguese, Polish, Turkish and Arabic (right to left); it switches at once, no restart. The in-game trainers are in Russian and English;
 - textured 3D preview: "before / after" right in the install wizard;
 - mod list: on/off, priority order, conflicts;
 - game cars: what is replaced, what is added; handling and colour tweaks;
