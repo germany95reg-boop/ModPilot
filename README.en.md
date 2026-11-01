@@ -4,7 +4,7 @@
 
 A mod installer for **GTA IV: Complete Edition** and **GTA V Legacy**. Drop a mod archive on the window — it works out what the mod is and where it goes, shows the car in 3D and installs it without touching the game's original files. Plus problem diagnostics, a built-in in-game trainer and one-click "back to vanilla".
 
-> Version **1.2.0-beta** adds GTA V Legacy. It is a beta, tested on one install of each game. If something goes wrong, "My mods → Restore original" undoes everything; the log is at `%AppData%\IVModManager\log.txt`.
+> Version **1.2.1-beta**: GTA V Legacy, with a map editor and a handling editor in the trainer. It is a beta, tested on one install of each game. If something goes wrong, "My mods → Restore original" undoes everything; the log is at `%AppData%\IVModManager\log.txt`.
 
 **[⬇ Download ModPilot](https://github.com/germany95reg-boop/ModPilot/releases/latest)** — `ModPilot-…-setup.zip`, the installer is inside.
 
@@ -41,7 +41,7 @@ A mod installer for **GTA IV: Complete Edition** and **GTA V Legacy**. Drop a mo
 - god mode, weapons, teleport, weather, time, traffic, free flight, autopilot, drift counter, chaos mode;
 - on-screen dashboard speedometer, customisable menu (colour, size, side).
 
-## GTA V Legacy (new in 1.2.0-beta)
+## GTA V Legacy
 
 - a separate window for each GTA V install; the game's original files are not changed;
 - scripts and plugins: `.asi`, ScriptHookVDotNet scripts and their settings folders — install, on/off, order, remove with the old files restored;
@@ -53,6 +53,8 @@ A mod installer for **GTA IV: Complete Edition** and **GTA V Legacy**. Drop a mo
 - "Online without mods": every mod is off for a GTA Online session and comes back afterwards;
 - the crash doctor reads the game's own dumps and tells what crashed and where;
 - **built-in trainer** (F7): cars and add-ons, teleport, weather, time, favourites, teleport to collectibles — 50 spaceship parts, 50 letter scraps, 30 underwater finds, 27 peyote plants and 7 golden ones, read from your own game files and available from the start.
+- **map editor** (new in 1.2.1): a free camera with a crosshair — place, move, turn and attach objects, people and vehicles; about 10,000 objects from your own game, searchable; maps are saved and loaded in Menyoo's layout, so ready-made maps from `menyooStuff\Spooner` open too;
+- **handling editor** (new in 1.2.1): about 45 values of how the car drives — power, drive, gearbox, grip, brakes, steering, suspension, anti-roll, mass, centre of mass, damage; presets (drift, track, rally and more), remembered per model, back to stock, export as `handling.meta` lines.
 
 ## Requirements
 
