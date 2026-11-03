@@ -1,0 +1,849 @@
+{
+  "version": 2,
+  "updated": "2026-11-03",
+  "game": "cp2077",
+  "mods": [
+    {
+      "id": "cet",
+      "name": "Cyber Engine Tweaks",
+      "author": "yamashi, maximegmd и др.",
+      "category": "libs",
+      "sub": "frameworks",
+      "sizeMb": 34.9,
+      "descRu": "Основа для Lua-модов: консоль, оверлей и скрипты. Нужен трейнеру ModPilot, AMM и многим другим.",
+      "descEn": "The base for Lua mods: console, overlay and scripting. Needed by the ModPilot trainer, AMM and many others.",
+      "noteRu": "При первом запуске выбери клавишу оверлея.",
+      "noteEn": "Pick the overlay key on first launch.",
+      "page": "https://github.com/maximegmd/CyberEngineTweaks",
+      "github": {
+        "repo": "maximegmd/CyberEngineTweaks",
+        "asset": "cet_*.zip"
+      },
+      "requires": [],
+      "nexus": 107
+    },
+    {
+      "id": "red4ext",
+      "name": "RED4ext",
+      "author": "WopsS",
+      "category": "libs",
+      "sub": "frameworks",
+      "sizeMb": 0.6,
+      "descRu": "Загрузчик плагинов-DLL для REDengine 4. На нём работают ArchiveXL, TweakXL, Codeware и другие.",
+      "descEn": "DLL plugin loader for REDengine 4. ArchiveXL, TweakXL, Codeware and others run on it.",
+      "page": "https://github.com/WopsS/RED4ext",
+      "github": {
+        "repo": "WopsS/RED4ext",
+        "asset": "red4ext-*.zip",
+        "exclude": "*symbols*"
+      },
+      "requires": [],
+      "nexus": 2380
+    },
+    {
+      "id": "redscript",
+      "name": "redscript",
+      "author": "jac3km4",
+      "category": "libs",
+      "sub": "frameworks",
+      "sizeMb": 0.9,
+      "descRu": "Компилятор скриптов игры: без него не работают моды из файлов .reds.",
+      "descEn": "Compiler for the game scripts: mods made of .reds files need it.",
+      "page": "https://github.com/jac3km4/redscript",
+      "github": {
+        "repo": "jac3km4/redscript",
+        "asset": "redscript-*-windows.zip"
+      },
+      "requires": [],
+      "nexus": 1511
+    },
+    {
+      "id": "archivexl",
+      "name": "ArchiveXL",
+      "author": "psiberx",
+      "category": "libs",
+      "sub": "frameworks",
+      "sizeMb": 1.1,
+      "descRu": "Добавляет в игру новые ресурсы без замены старых: одежда, машины, предметы из модов.",
+      "descEn": "Adds new resources to the game without replacing originals: modded clothes, vehicles and items.",
+      "requires": [
+        "red4ext"
+      ],
+      "page": "https://github.com/psiberx/cp2077-archive-xl",
+      "github": {
+        "repo": "psiberx/cp2077-archive-xl",
+        "asset": "ArchiveXL-*.zip",
+        "exclude": "*pdb*"
+      },
+      "nexus": 4198
+    },
+    {
+      "id": "tweakxl",
+      "name": "TweakXL",
+      "author": "psiberx",
+      "category": "libs",
+      "sub": "frameworks",
+      "sizeMb": 1.1,
+      "descRu": "Загружает правки базы игровых записей (TweakDB) из модов: характеристики, предметы, машины.",
+      "descEn": "Loads TweakDB edits from mods: stats, items, vehicles.",
+      "requires": [
+        "red4ext"
+      ],
+      "page": "https://github.com/psiberx/cp2077-tweak-xl",
+      "github": {
+        "repo": "psiberx/cp2077-tweak-xl",
+        "asset": "TweakXL-*.zip",
+        "exclude": "*pdb*"
+      },
+      "nexus": 4197
+    },
+    {
+      "id": "codeware",
+      "name": "Codeware",
+      "author": "psiberx",
+      "category": "libs",
+      "sub": "frameworks",
+      "sizeMb": 2.0,
+      "descRu": "Библиотека для скриптовых модов. Нужна трейнеру ModPilot и большинству крупных модов.",
+      "descEn": "Library for script mods. The ModPilot trainer and most large mods need it.",
+      "requires": [
+        "red4ext"
+      ],
+      "page": "https://github.com/psiberx/cp2077-codeware",
+      "github": {
+        "repo": "psiberx/cp2077-codeware",
+        "asset": "Codeware-*.zip",
+        "exclude": "*pdb*"
+      },
+      "nexus": 7780
+    },
+    {
+      "id": "mod-settings",
+      "name": "Mod Settings",
+      "author": "jackhumbert",
+      "category": "libs",
+      "sub": "frameworks",
+      "sizeMb": 0.4,
+      "descRu": "Страница «Настройки модов» в главном меню игры — через неё настраиваются многие моды.",
+      "descEn": "A \"Mod Settings\" page in the main menu where many mods keep their options.",
+      "requires": [
+        "red4ext",
+        "redscript",
+        "archivexl"
+      ],
+      "page": "https://github.com/jackhumbert/mod_settings",
+      "github": {
+        "repo": "jackhumbert/mod_settings",
+        "asset": "mod_settings_*.zip",
+        "exclude": "*pdb*"
+      },
+      "nexus": 4885
+    },
+    {
+      "id": "input-loader",
+      "name": "Input Loader",
+      "author": "jackhumbert",
+      "category": "libs",
+      "sub": "frameworks",
+      "sizeMb": 0.5,
+      "descRu": "Позволяет модам добавлять свои клавиши в управление игры.",
+      "descEn": "Lets mods add their own key bindings to the game controls.",
+      "requires": [
+        "red4ext"
+      ],
+      "page": "https://github.com/jackhumbert/cyberpunk2077-input-loader",
+      "github": {
+        "repo": "jackhumbert/cyberpunk2077-input-loader",
+        "asset": "input_loader_*.zip",
+        "exclude": "*pdb*"
+      },
+      "nexus": 4575
+    },
+    {
+      "id": "native-settings-ui",
+      "name": "Native Settings UI",
+      "author": "NexusGuy999",
+      "category": "libs",
+      "sub": "frameworks",
+      "descRu": "Настройки CET-модов в обычном меню настроек игры.",
+      "descEn": "Settings for CET mods inside the game settings menu.",
+      "requires": [
+        "cet"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/3518",
+      "nexus": 3518
+    },
+    {
+      "id": "browser-extension",
+      "name": "Browser Extension",
+      "author": "r457",
+      "category": "libs",
+      "sub": "frameworks",
+      "descRu": "Добавляет сайты модов во внутриигровой браузер. Нужен Virtual Car Dealer и магазинам одежды.",
+      "descEn": "Adds mod websites to the in-game browser. Virtual Car Dealer and clothing stores need it.",
+      "requires": [
+        "codeware",
+        "mod-settings",
+        "red4ext",
+        "redscript"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/10038",
+      "nexus": 10038
+    },
+    {
+      "id": "appearance-runtime-plugin",
+      "name": "Appearance Runtime Plugin",
+      "author": "MaximiliumM",
+      "category": "libs",
+      "sub": "frameworks",
+      "sizeMb": 2.5,
+      "descRu": "Плагин, на котором работают собственные облики персонажей в AMM.",
+      "descEn": "The plugin behind custom character appearances in AMM.",
+      "requires": [
+        "red4ext"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/35126",
+      "nexus": 35126
+    },
+    {
+      "id": "amm",
+      "name": "AMM - Appearance Menu Mod",
+      "author": "MaximiliumM",
+      "category": "gameplay",
+      "sub": "tools",
+      "sizeMb": 82,
+      "descRu": "Меню фоторежима и мира: спавн спутников и NPC, смена обликов, декор квартиры, режиссура сцен.",
+      "descEn": "Photo mode and world menu: spawn companions and NPCs, change appearances, decorate your home, direct scenes.",
+      "requires": [
+        "cet",
+        "archivexl",
+        "codeware",
+        "appearance-runtime-plugin"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/790",
+      "noteRu": "На Nexus страница помечена 18+ (из-за картинок пользователей): чтобы её увидеть, войди и включи взрослый контент в настройках сайта.",
+      "noteEn": "The Nexus page is flagged 18+ (because of user images): log in and enable adult content in the site settings to see it.",
+      "nexus": 790
+    },
+    {
+      "id": "immersive-first-person",
+      "name": "Immersive First Person",
+      "author": "Bonaniki",
+      "category": "gameplay",
+      "sub": "camera",
+      "descRu": "Обзор головой (FreeLook), видно своё тело от первого лица, настройка роста.",
+      "descEn": "FreeLook, visible body in first person and height adjustment.",
+      "requires": [
+        "cet",
+        "red4ext",
+        "redscript"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/2675",
+      "nexus": 2675
+    },
+    {
+      "id": "equipment-ex",
+      "name": "Equipment-EX",
+      "author": "psiberx",
+      "category": "gameplay",
+      "sub": "appearance",
+      "descRu": "Трансмог: внешний вид одежды отдельно от характеристик, наборы нарядов, 30+ слотов.",
+      "descEn": "Transmog: clothing looks separate from stats, outfit sets, 30+ slots.",
+      "requires": [
+        "archivexl",
+        "codeware",
+        "red4ext",
+        "redscript",
+        "tweakxl"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/6945",
+      "nexus": 6945
+    },
+    {
+      "id": "cyberware-ex",
+      "name": "Cyberware-EX",
+      "author": "psiberx",
+      "category": "gameplay",
+      "sub": "cyberware",
+      "descRu": "Больше слотов кибернетики; деку, Сандевистан и Берсерк можно ставить одновременно.",
+      "descEn": "More cyberware slots; cyberdeck, Sandevistan and Berserk at the same time.",
+      "requires": [
+        "redscript",
+        "tweakxl",
+        "codeware"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/9429",
+      "nexus": 9429
+    },
+    {
+      "id": "let-there-be-flight",
+      "name": "Let There Be Flight",
+      "author": "jackhumbert",
+      "category": "gameplay",
+      "sub": "vehicles",
+      "sizeMb": 13.1,
+      "descRu": "Любая машина может летать: двигатели, эффекты, звук и настраиваемое управление полётом.",
+      "descEn": "Any vehicle can fly: thrusters, effects, sound and configurable flight controls.",
+      "requires": [
+        "input-loader",
+        "mod-settings",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "archivexl"
+      ],
+      "page": "https://github.com/jackhumbert/let_there_be_flight",
+      "github": {
+        "repo": "jackhumbert/let_there_be_flight",
+        "asset": "let_there_be_flight_*.zip",
+        "exclude": "*pdb*"
+      }
+    },
+    {
+      "id": "always-first-equip",
+      "name": "Always First Equip",
+      "author": "djkovrik",
+      "category": "gameplay",
+      "sub": "weapons",
+      "descRu": "Красивая анимация первого взятия оружия каждый раз, плюс осмотр оружия по клавише.",
+      "descEn": "The first-equip weapon animation every time, plus weapon inspection on a hotkey.",
+      "requires": [
+        "archivexl",
+        "input-loader",
+        "mod-settings",
+        "red4ext",
+        "redscript"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/2557",
+      "nexus": 2557
+    },
+    {
+      "id": "autoloot",
+      "name": "Autoloot",
+      "author": "anygoodname",
+      "category": "gameplay",
+      "sub": "loot",
+      "descRu": "Автоматически подбирает добычу вокруг по настраиваемым правилам.",
+      "descEn": "Picks up loot around you automatically by configurable rules.",
+      "requires": [
+        "cet"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/5202",
+      "nexus": 5202
+    },
+    {
+      "id": "enhanced-craft",
+      "name": "Enhanced Craft",
+      "author": "djkovrik",
+      "category": "gameplay",
+      "sub": "crafting",
+      "descRu": "При крафте можно выбрать раскраску оружия и дать ему имя.",
+      "descEn": "Choose a weapon skin and name it when crafting.",
+      "requires": [
+        "archivexl",
+        "codeware",
+        "input-loader",
+        "mod-settings",
+        "red4ext",
+        "redscript",
+        "tweakxl"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/4378",
+      "nexus": 4378
+    },
+    {
+      "id": "silent-silencers",
+      "name": "Silent Silencers and Throwing Knives",
+      "author": "rmk1234",
+      "category": "gameplay",
+      "sub": "stealth",
+      "descRu": "Выстрел с глушителем или бросок ножа больше не поднимает всех по тревоге — стелс работает без убийства с одного удара.",
+      "descEn": "Silenced shots and thrown knives no longer alert everyone, so stealth works without one-shot kills.",
+      "requires": [
+        "archivexl",
+        "native-settings-ui",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "cet"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/4070",
+      "nexus": 4070
+    },
+    {
+      "id": "simple-flashlight",
+      "name": "Simple Flashlight",
+      "author": "NexusGuy999",
+      "category": "gameplay",
+      "sub": "tools",
+      "descRu": "Фонарик, который включается и выключается клавишей.",
+      "descEn": "A flashlight you switch on and off with a key.",
+      "requires": [
+        "native-settings-ui",
+        "cet"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/2913",
+      "nexus": 2913
+    },
+    {
+      "id": "smarter-scrapper",
+      "name": "Smarter Scrapper",
+      "author": "djkovrik",
+      "category": "gameplay",
+      "sub": "loot",
+      "descRu": "Автоматически разбирает подобранный хлам на компоненты по выбранной редкости.",
+      "descEn": "Automatically disassembles picked-up junk into components by chosen quality.",
+      "requires": [
+        "mod-settings",
+        "red4ext",
+        "redscript"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/2687",
+      "nexus": 2687
+    },
+    {
+      "id": "talk-to-me",
+      "name": "Talk to Me",
+      "author": "Massycraft",
+      "category": "world",
+      "sub": "npc",
+      "descRu": "Прохожие заговаривают, когда V идёт мимо, — город перестаёт молчать.",
+      "descEn": "Passers-by talk to V when walking past, so crowds are no longer silent.",
+      "requires": [
+        "redscript"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/5534",
+      "nexus": 5534
+    },
+    {
+      "id": "radioext",
+      "name": "RadioExt",
+      "author": "NexusGuy999",
+      "category": "sound",
+      "sub": "radio",
+      "sizeMb": 1,
+      "descRu": "Свои радиостанции в игре: можно добавлять станции с собственной музыкой.",
+      "descEn": "Custom radio stations: add stations with your own music.",
+      "requires": [
+        "cet",
+        "red4ext"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/4591",
+      "nexus": 4591
+    },
+    {
+      "id": "immersive-timeskip",
+      "name": "Immersive Timeskip",
+      "author": "djkovrik",
+      "category": "ui",
+      "sub": "hud",
+      "sizeMb": 1,
+      "descRu": "Пропуск времени в любом месте через обычное игровое окно, без лишнего интерфейса.",
+      "descEn": "Skip time anywhere through the game time-skip widget.",
+      "requires": [
+        "input-loader",
+        "red4ext",
+        "redscript"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/5115",
+      "nexus": 5115
+    },
+    {
+      "id": "better-loot-markers",
+      "name": "Better Loot Markers",
+      "author": "rodikh",
+      "category": "ui",
+      "sub": "hud",
+      "descRu": "Значки на контейнерах показывают, какая добыча внутри.",
+      "descEn": "Container markers show what kind of loot is inside.",
+      "requires": [
+        "cet"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/3486",
+      "nexus": 3486
+    },
+    {
+      "id": "no-intro-videos",
+      "name": "No Intro Videos",
+      "author": "djkovrik",
+      "category": "ui",
+      "sub": "menu",
+      "descRu": "Убирает заставки при запуске игры.",
+      "descEn": "Removes the intro videos at game start.",
+      "requires": [
+        "redscript"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/533",
+      "nexus": 533
+    },
+    {
+      "id": "virtual-car-dealer",
+      "name": "Virtual Car Dealer",
+      "author": "djkovrik",
+      "category": "cars",
+      "sub": "shops",
+      "sizeMb": 3,
+      "descRu": "Автосалон во внутриигровом браузере, через который продаются машины из модов.",
+      "descEn": "A car shop in the in-game browser that sells modded vehicles.",
+      "requires": [
+        "archivexl",
+        "browser-extension",
+        "codeware",
+        "red4ext",
+        "redscript",
+        "tweakxl"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/4454",
+      "nexus": 4454
+    },
+    {
+      "id": "car-modification-shop",
+      "name": "Car Modification Shop",
+      "author": "E3roKK",
+      "category": "cars",
+      "sub": "tuning",
+      "descRu": "Мастерская, где можно менять машины игрока, с родным интерфейсом.",
+      "descEn": "A garage to modify player vehicles, with native UI.",
+      "requires": [
+        "cet"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/4034",
+      "nexus": 4034
+    },
+    {
+      "id": "cyber-vehicle-overhaul",
+      "name": "Cyber Vehicle Overhaul",
+      "author": "E3roKK",
+      "category": "cars",
+      "sub": "handling",
+      "descRu": "Перенастроены скорость, коробка, мощность, управляемость и тормоза каждой машины.",
+      "descEn": "Top speed, gearing, power, handling and brakes retuned for every vehicle.",
+      "requires": [
+        "cet"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/3016",
+      "nexus": 3016
+    },
+    {
+      "id": "better-vehicle-handling",
+      "name": "Better Vehicle Handling",
+      "author": "CalinZ2",
+      "category": "cars",
+      "sub": "handling",
+      "descRu": "Файл настроек, с которым машины и мотоциклы управляются менее капризно.",
+      "descEn": "A config file that makes cars and bikes handle less erratically.",
+      "noteRu": "Обновлялся в 2024 году.",
+      "noteEn": "Last updated in 2024.",
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/210",
+      "requires": [],
+      "nexus": 210
+    },
+    {
+      "id": "nova-lut",
+      "name": "Nova LUT 4.0",
+      "author": "theCyanideX",
+      "category": "graphics",
+      "sub": "color",
+      "sizeMb": 6,
+      "descRu": "Новая цветокоррекция и HDR-тонмаппинг AgX: естественные цвета и чёткая картинка.",
+      "descEn": "New colour grading with AgX tonemapping: natural colours and a crisp image.",
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/11622",
+      "requires": [],
+      "nexus": 11622
+    },
+    {
+      "id": "sdh0-vehicle-resources",
+      "name": "SDH0's Vehicle Resources",
+      "author": "SDH0",
+      "category": "libs",
+      "sub": "vehicles",
+      "descRu": "Общие детали для машин SDH0 (Ford GT500, Lamborghini, Pagani и другие). Без него эти машины без внешнего вида — игра зависает и вылетает, когда машина появляется.",
+      "descEn": "Shared parts for SDH0 cars (Ford GT500, Lamborghini, Pagani and others). Without it these cars have no appearance and the game freezes and crashes when one spawns.",
+      "requires": [],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/20956",
+      "nexus": 20956,
+      "sizeMb": 4.8
+    },
+    {
+      "id": "sdh0-vehicle-audio",
+      "name": "SDH0's Vehicle Audio",
+      "author": "SDH0",
+      "category": "libs",
+      "sub": "vehicles",
+      "descRu": "Звуки моторов для машин SDH0.",
+      "descEn": "Engine sounds for SDH0 cars.",
+      "requires": [
+        "audioxl"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/34861",
+      "nexus": 34861,
+      "sizeMb": 96.6
+    },
+    {
+      "id": "audioxl",
+      "name": "AudioXL",
+      "author": "DigitalVixen",
+      "category": "libs",
+      "sub": "frameworks",
+      "descRu": "Свои звуки через звуковой движок игры. Нужен звукам машин SDH0 и другим аудиомодам.",
+      "descEn": "Custom sounds through the game's own audio engine. SDH0 car sounds and other audio mods need it.",
+      "requires": [
+        "codeware",
+        "red4ext",
+        "redscript"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/33442",
+      "nexus": 33442,
+      "sizeMb": 0.5
+    },
+    {
+      "id": "vehicle-core",
+      "name": "Vehicle Core",
+      "author": "theCyanideX",
+      "category": "libs",
+      "sub": "vehicles",
+      "descRu": "Основа для машин, которые подключаются к Garage: без него машины SDH0 и CINO ломают сборку скриптов.",
+      "descEn": "Core for vehicles that register with Garage: without it SDH0 and CINO cars break script compilation.",
+      "requires": [
+        "codeware",
+        "cet",
+        "redscript",
+        "tweakxl"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/31684",
+      "nexus": 31684
+    },
+    {
+      "id": "vehicle-turret-core",
+      "name": "Vehicle Turret Core",
+      "author": "whatmynickname",
+      "category": "libs",
+      "sub": "vehicles",
+      "descRu": "Башни, наводимые мышью, для бронетехники (CINO, Solvind и др.).",
+      "descEn": "Mouse-aimed turrets for armoured vehicles (CINO, Solvind and others).",
+      "requires": [
+        "cet",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "archivexl",
+        "codeware",
+        "input-loader",
+        "mod-settings"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/33979",
+      "nexus": 33979,
+      "sizeMb": 0.1
+    },
+    {
+      "id": "xutils",
+      "name": "XUtils",
+      "author": "CyanideX",
+      "category": "libs",
+      "sub": "frameworks",
+      "descRu": "Вспомогательная библиотека модов CyanideX. Нужна Garage.",
+      "descEn": "Helper library for CyanideX mods. Garage needs it.",
+      "requires": [
+        "cet"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/30296",
+      "nexus": 30296
+    },
+    {
+      "id": "garage",
+      "name": "Garage (Customize - Claim - Sell - Repair - Swap)",
+      "author": "CyanideX",
+      "category": "cars",
+      "sub": "tuning",
+      "descRu": "Гараж: тюнинг в реальном времени, покупка, продажа, ремонт и замена машин. Поддерживает машины SDH0.",
+      "descEn": "Garage: live tuning, claiming, selling, repairing and swapping cars. Supports SDH0 cars.",
+      "requires": [
+        "cet",
+        "red4ext",
+        "redscript",
+        "xutils",
+        "vehicle-core"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/30297",
+      "nexus": 30297,
+      "sizeMb": 133.7
+    },
+    {
+      "id": "virtual-atelier",
+      "name": "Virtual Atelier",
+      "author": "Pacings, djkovrik",
+      "category": "libs",
+      "sub": "frameworks",
+      "descRu": "Внутриигровые магазины одежды из модов. Нужен большинству модов одежды.",
+      "descEn": "In-game stores for modded clothes. Most clothing mods need it.",
+      "requires": [
+        "archivexl",
+        "codeware",
+        "mod-settings",
+        "red4ext",
+        "redscript"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/2987",
+      "nexus": 2987,
+      "sizeMb": 0.4
+    },
+    {
+      "id": "deceptious-quest-core",
+      "name": "Deceptious Quest Core",
+      "author": "Deceptious",
+      "category": "libs",
+      "sub": "frameworks",
+      "descRu": "Общая основа квестовых модов Deceptious.",
+      "descEn": "Shared core for Deceptious quest mods.",
+      "requires": [],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/7831",
+      "nexus": 7831,
+      "sizeMb": 2.6
+    },
+    {
+      "id": "night-city-interactions-core",
+      "name": "Night City Interactions - Core",
+      "author": "Deceptious",
+      "category": "libs",
+      "sub": "frameworks",
+      "descRu": "Основа модов Night City Interactions (взаимодействия в мире).",
+      "descEn": "Core for the Night City Interactions mods.",
+      "requires": [
+        "archivexl",
+        "codeware",
+        "red4ext",
+        "tweakxl",
+        "native-settings-ui"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/5519",
+      "nexus": 5519,
+      "sizeMb": 25
+    },
+    {
+      "id": "native-interactions-framework",
+      "name": "Native Interactions Framework",
+      "author": "keanuWheeze",
+      "category": "libs",
+      "sub": "frameworks",
+      "descRu": "Взаимодействия в мире: сесть, лечь, выпить, принять душ. Нужен модам квартир и мест.",
+      "descEn": "World interactions such as sitting, sleeping, drinking and showering. Apartment and location mods need it.",
+      "requires": [
+        "cet",
+        "red4ext",
+        "archivexl",
+        "codeware",
+        "redscript"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/21422",
+      "nexus": 21422,
+      "sizeMb": 0.3
+    },
+    {
+      "id": "material-texture-override",
+      "name": "Material and Texture Override",
+      "author": "Nim",
+      "category": "libs",
+      "sub": "frameworks",
+      "descRu": "Позволяет игре загружать новые материалы. Нужен части модов одежды и тела.",
+      "descEn": "Lets the game load new materials. Some clothing and body mods need it.",
+      "requires": [],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/5266",
+      "nexus": 5266
+    },
+    {
+      "id": "community-palette",
+      "name": "The Community Palette Project",
+      "author": "NoraLee",
+      "category": "libs",
+      "sub": "resources",
+      "descRu": "Ресурс на 730 дополнительных цветов для одежды из модов.",
+      "descEn": "A resource with 730 extra colours for modded clothes.",
+      "requires": [],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/10437",
+      "nexus": 10437,
+      "sizeMb": 3.7
+    },
+    {
+      "id": "trigger-mode-control",
+      "name": "Trigger Mode Control",
+      "author": "Seijax",
+      "category": "libs",
+      "sub": "frameworks",
+      "descRu": "Основа модов оружия со сменой режима огня.",
+      "descEn": "Framework for weapon mods that switch fire modes.",
+      "requires": [
+        "archivexl",
+        "input-loader",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "codeware"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/13077",
+      "nexus": 13077
+    },
+    {
+      "id": "photomode-ex",
+      "name": "PhotoMode-EX",
+      "author": "psiberx",
+      "category": "libs",
+      "sub": "frameworks",
+      "descRu": "Свои персонажи и удобства фоторежима. Нужен модам поз и персонажей.",
+      "descEn": "Custom characters and quality-of-life for photo mode. Pose and character mods need it.",
+      "requires": [
+        "codeware",
+        "red4ext",
+        "redscript"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/18839",
+      "nexus": 18839,
+      "sizeMb": 0.3
+    },
+    {
+      "id": "audioware",
+      "name": "Audioware",
+      "author": "Roms1383",
+      "category": "libs",
+      "sub": "frameworks",
+      "descRu": "Свои звуки без REDmod. Нужен многим аудио- и квестовым модам.",
+      "descEn": "Custom sounds without REDmod. Many audio and quest mods need it.",
+      "requires": [
+        "codeware",
+        "red4ext",
+        "redscript",
+        "tweakxl"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/12001",
+      "nexus": 12001,
+      "sizeMb": 1.3
+    },
+    {
+      "id": "redfilesystem",
+      "name": "RedFileSystem",
+      "author": "Rayshader",
+      "category": "libs",
+      "sub": "frameworks",
+      "descRu": "Плагин для модов, которые сохраняют свои файлы (настройки, пресеты).",
+      "descEn": "Plugin for mods that keep their own files (settings, presets).",
+      "requires": [
+        "red4ext",
+        "redscript"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/13378",
+      "nexus": 13378,
+      "sizeMb": 0.2
+    },
+    {
+      "id": "vehicle-manufacturer-fix",
+      "name": "Vehicle manufacturer fix",
+      "author": "cornmilf",
+      "category": "libs",
+      "sub": "vehicles",
+      "descRu": "Общий ресурс машин CORNMILF и Okrasha (Lada, Priora, Plymouth, Supra, Bronco и др.): автор пишет, что без него они не работают.",
+      "descEn": "Shared resource for CORNMILF and Okrasha cars (Lada, Priora, Plymouth, Supra, Bronco and others): the author marks it as a hard requirement.",
+      "requires": [],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/28744",
+      "nexus": 28744
+    }
+  ]
+}

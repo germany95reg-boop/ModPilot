@@ -45,18 +45,16 @@ ModPilot downloads these from their official release pages when the user presses
 - **ScriptHookDotNet** (Complete Edition fork) — Hazard, Tomasak. https://github.com/Tomasak/gta4_scripthookdotnet
 - **IV-SDK .NET** — ClonkAndre. https://github.com/ClonkAndre/IV-SDK-DotNet
 - Microsoft Visual C++ Redistributable and DirectX End-User Runtime — Microsoft.
-- **ScriptHookVDotNet** — crosire and contributors (GTA V Enhanced build: Chiheb-Bacha). https://github.com/scripthookvdotnet/scripthookvdotnet
-- **Script Hook V** — Alexander Blade. Not downloaded by ModPilot: the app opens http://www.dev-c.com/gtav/scripthookv/.
 - **RageOpenV** (GTA V mods-folder loader, GPL-3.0) — martonp96, Chiheb-Bacha. https://github.com/Chiheb-Bacha/RageOpenV
 - **CodeWalker key data** (`magic.dat`, GTA V) — dexyfex. Downloaded from https://github.com/dexyfex/CodeWalker (fixed commit, checked by hash) to the user's PC when they prepare add-on cars; it is useless without the user's own game.
 
-### CodeWalker — GTA V NG decryption method
+### CodeWalker — GTA V NG decryption method (src/IVModManager.Core/Formats/NgCrypto.cs)
 https://github.com/dexyfex/CodeWalker
 
     The MIT License (MIT)
     Copyright (c) 2015 Neodymium; CodeWalker (c) dexyfex
 
-    (Same permission notice and disclaimer as above.) ModPilot's code is its own following the method
+    (Same permission notice and disclaimer as above.) ModPilot's NgCrypto.cs is its own code following the method
     of CodeWalker's GTACrypto/GTAKeys (key selection, round structure, magic data layout).
 
 The built-in trainer (`IVMMTrainer.net.dll`) is ModPilot's own code; it runs on ScriptHookDotNet but does not contain it.
