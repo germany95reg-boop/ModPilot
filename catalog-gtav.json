@@ -1,7 +1,82 @@
 {
   "version": 4,
-  "updated": "2026-11-01",
+  "updated": "2026-11-09",
   "game": "gtav",
+  "collections": [
+    {
+      "id": "essentials",
+      "icon": "",
+      "titleRu": "Топ нужных",
+      "titleEn": "Must-haves",
+      "descRu": "С чего начать: трейнер, спавнер машин-аддонов, библиотеки меню для скриптов и исправления лимитов, без которых много модов вылетает.",
+      "descEn": "Where to start: a trainer, an add-on car spawner, menu libraries scripts rely on and limit fixes that stop many modded crashes.",
+      "mods": [
+        "menyoo",
+        "addon-spawner",
+        "lemonui",
+        "nativeui",
+        "packfile-limit-adjuster",
+        "heap-limit-adjuster",
+        "dial-accuracy-fix"
+      ]
+    },
+    {
+      "id": "gameplay",
+      "icon": "",
+      "titleRu": "Топ меняющих геймплей",
+      "titleEn": "Gameplay changers",
+      "descRu": "Погони, зомби, войны банд, топливо, ручная коробка передач и физика машин — игра становится другой.",
+      "descEn": "Chases, zombies, gang wars, fuel, a manual gearbox and car physics — the game plays differently.",
+      "mods": [
+        "better-chases",
+        "simple-zombies",
+        "gang-and-turf",
+        "simple-fuel",
+        "manual-transmission",
+        "inverse-power",
+        "drift-assist",
+        "no-boundary-limits"
+      ]
+    },
+    {
+      "id": "fun",
+      "icon": "",
+      "titleRu": "Топ интересных",
+      "titleEn": "Most interesting",
+      "descRu": "Свобода в игре: трейнеры, редактор карты, зомби, банды и полёты за пределы карты.",
+      "descEn": "Freedom in the game: trainers, a map editor, zombies, gangs and flying past the map edge.",
+      "mods": [
+        "menyoo",
+        "enhanced-native-trainer",
+        "simple-trainer",
+        "map-editor",
+        "simple-zombies",
+        "gang-and-turf",
+        "no-boundary-limits"
+      ]
+    },
+    {
+      "id": "cars",
+      "icon": "",
+      "titleRu": "Топ для машин",
+      "titleEn": "Best for cars",
+      "descRu": "Машины-аддоны, ручная коробка и руль, настройка управляемости, посадка, спидометры и светящиеся тормоза.",
+      "descEn": "Add-on cars, a manual gearbox and wheel support, handling tuning, stance, speedometers and glowing brakes.",
+      "mods": [
+        "addon-spawner",
+        "manual-transmission",
+        "handling-replacement",
+        "rt-handling-editor",
+        "slam-it",
+        "vehicle-control",
+        "glowing-brakes",
+        "ikt-speedo",
+        "lefix-speedo",
+        "inverse-power",
+        "drift-assist"
+      ]
+    }
+  ],
   "mods": [
     {
       "id": "menyoo",

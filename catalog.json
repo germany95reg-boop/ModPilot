@@ -1,7 +1,118 @@
 {
   "version": 4,
-  "updated": "2026-10-31",
+  "updated": "2026-11-09",
   "game": "gta4",
+  "collections": [
+    {
+      "id": "essentials",
+      "icon": "",
+      "titleRu": "Топ нужных",
+      "titleEn": "Must-haves",
+      "descRu": "С чего начать: исправления багов игры и персонажей, которые не меняют стиль, а просто чинят то, что сломано.",
+      "descEn": "Where to start: fixes for the game and its characters that don't change the style, they just repair what is broken.",
+      "mods": [
+        "grass-fix",
+        "characters-fixes",
+        "outfit-texture-fixes",
+        "broker-bridge-fix",
+        "schottler-fix",
+        "subway-fix",
+        "escuela-sleep",
+        "stevie-photos",
+        "track-jackets-fix",
+        "luis-textures",
+        "radio-restoration"
+      ]
+    },
+    {
+      "id": "console",
+      "icon": "",
+      "titleRu": "Как на консоли",
+      "titleEn": "Console look",
+      "descRu": "Возвращают то, как GTA IV выглядела на Xbox 360 и PS3: растительность, прохожие, одежда, анимации, загрузки, HUD, капли дождя.",
+      "descEn": "Bring back how GTA IV looked on Xbox 360 and PS3: vegetation, pedestrians, clothing, animations, loading screens, HUD, rain drops.",
+      "mods": [
+        "console-vegetation",
+        "console-peds",
+        "console-clothing",
+        "console-anims",
+        "console-fences",
+        "console-hud",
+        "console-loading",
+        "xbox-rain-droplets",
+        "console-select-menu",
+        "console-visuals-addons"
+      ]
+    },
+    {
+      "id": "living-world",
+      "icon": "",
+      "titleRu": "Топ интересных",
+      "titleEn": "Most interesting",
+      "descRu": "Живой Либерти-Сити: вернувшиеся прохожие и их действия, трафик, растения, граффити и предметы, видимые интерьеры.",
+      "descEn": "A living Liberty City: restored pedestrians and their actions, traffic, plants, graffiti and props, visible interiors.",
+      "mods": [
+        "restored-peds",
+        "ped-actions",
+        "fidelity-popcycle",
+        "potential-grim",
+        "traffic-params",
+        "restored-vegetation",
+        "props-restoration",
+        "restored-graffiti",
+        "more-visible-interiors",
+        "restored-helmets",
+        "plane-paths"
+      ]
+    },
+    {
+      "id": "gameplay",
+      "icon": "",
+      "titleRu": "Топ меняющих геймплей",
+      "titleEn": "Gameplay changers",
+      "descRu": "Стрельба и анимации: пули пробивают стёкла, колесо оружия как в GTA V, смена плеча при прицеливании, исправленные и восстановленные анимации.",
+      "descEn": "Shooting and animations: bullets go through glass, a GTA V style weapon wheel, shoulder switching while aiming, fixed and restored animations.",
+      "mods": [
+        "improved-anims",
+        "bullet-penetration",
+        "liberty-shoulder",
+        "liberty-loadout",
+        "story-anims",
+        "console-anims"
+      ]
+    },
+    {
+      "id": "graphics",
+      "icon": "",
+      "titleRu": "Топ графики",
+      "titleEn": "Best visuals",
+      "descRu": "Мягкое освещение в духе оригинала, текстуры высокого разрешения, чёткая карта и капли дождя на камере.",
+      "descEn": "Gentle lighting in the original's spirit, high-resolution textures, a sharp map and rain drops on the camera.",
+      "mods": [
+        "solitude",
+        "hq-misc-pack",
+        "vehicle-pack",
+        "hq-map",
+        "xbox-rain-droplets",
+        "hq-pigeons"
+      ]
+    },
+    {
+      "id": "cars",
+      "icon": "",
+      "titleRu": "Топ для машин",
+      "titleEn": "Best for cars",
+      "descRu": "Текстуры машин, машины из эпизодов, разные номера и более послушное управление.",
+      "descEn": "Car textures, cars from the episodes, unique plates and easier handling.",
+      "mods": [
+        "vehicle-pack",
+        "eflc-vehicle-pack",
+        "transport-physics",
+        "libertycity-plates",
+        "resized-blista"
+      ]
+    }
+  ],
   "mods": [
     {
       "id": "console-vegetation",

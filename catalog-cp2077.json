@@ -1,7 +1,140 @@
 {
   "version": 2,
-  "updated": "2026-11-03",
+  "updated": "2026-11-09",
   "game": "cp2077",
+  "collections": [
+    {
+      "id": "essentials",
+      "icon": "",
+      "titleRu": "Топ нужных",
+      "titleEn": "Must-haves",
+      "descRu": "С чего начать: основы, без которых не работает большинство модов, исправления багов и самое полезное. Ставь сверху вниз.",
+      "descEn": "Where to start: the frameworks most mods need, bug fixes and the most useful additions. Install from the top down.",
+      "mods": [
+        "cet",
+        "red4ext",
+        "redscript",
+        "archivexl",
+        "tweakxl",
+        "codeware",
+        "native-settings-ui",
+        "mod-settings",
+        "input-loader",
+        "deceptious-quest-core",
+        "deceptious-bug-fixes",
+        "status-bar-bug-fixes",
+        "in-world-navigation",
+        "stash-filters",
+        "clear-skill-checks"
+      ]
+    },
+    {
+      "id": "gameplay",
+      "icon": "",
+      "titleRu": "Топ меняющих геймплей",
+      "titleEn": "Gameplay changers",
+      "descRu": "Моды, которые меняют саму игру: выживание, стелс, баланс урона, новые враги, физика, Новая игра+.",
+      "descEn": "Mods that change how the game plays: survival, stealth, damage balance, new enemies, physics, New Game Plus.",
+      "mods": [
+        "dark-future",
+        "stealthrunner",
+        "lifepath-bonuses",
+        "enemies-of-night-city",
+        "damage-scaling",
+        "immersive-first-person",
+        "ragdoll-physics-overhaul",
+        "stealth-finishers",
+        "enhanced-craft",
+        "new-game-plus",
+        "let-there-be-flight",
+        "silent-silencers",
+        "kiroshi-night-vision",
+        "zoomable-scopes"
+      ]
+    },
+    {
+      "id": "living-world",
+      "icon": "",
+      "titleRu": "Топ интересных",
+      "titleEn": "Most interesting",
+      "descRu": "Живой Найт-Сити: прохожие реагируют на V, у баров и ларьков можно поесть и выпить, особняк, биржа, романы, кошка.",
+      "descEn": "A living Night City: NPCs react to V, food and drinks at bars and stalls, a mansion, a stock market, romances, the cat.",
+      "mods": [
+        "responsive-npcs",
+        "sit-anywhere",
+        "immersive-bartenders",
+        "immersive-food-vendors",
+        "immersive-vik",
+        "immersive-rippers",
+        "edgerunners-mansion",
+        "stock-market",
+        "talk-to-me",
+        "radioext",
+        "judy-romanced-enhanced",
+        "romance-hangouts-enhanced",
+        "pet-your-cat",
+        "enable-advert-animations",
+        "amm"
+      ]
+    },
+    {
+      "id": "graphics",
+      "icon": "",
+      "titleRu": "Топ графики",
+      "titleEn": "Best visuals",
+      "descRu": "Текстуры, погода, дождь, вода и дальность прорисовки. Больше модов графики — больше нагрузка на видеокарту.",
+      "descEn": "Textures, weather, rain, water and distant detail. More graphics mods mean more load on the graphics card.",
+      "mods": [
+        "hd-reworked",
+        "nova-lut",
+        "enhanced-weather",
+        "better-finer-rain",
+        "preem-water",
+        "improved-environment-lods",
+        "dirt-begone"
+      ]
+    },
+    {
+      "id": "comfort",
+      "icon": "",
+      "titleRu": "Топ удобства",
+      "titleEn": "Quality of life",
+      "descRu": "Мелочи, которые экономят время: навигация, фильтры, автолут, сброс характеристик, понятные проверки навыков.",
+      "descEn": "Small things that save time: navigation, filters, autoloot, attribute respec, clear skill checks.",
+      "mods": [
+        "in-world-navigation",
+        "better-loot-markers",
+        "autoloot",
+        "stash-filters",
+        "clear-skill-checks",
+        "simple-untrack-quest",
+        "immersive-timeskip",
+        "reset-attributes",
+        "quickhacks-sort",
+        "smarter-scrapper",
+        "realistic-map",
+        "nsui-side-menu",
+        "no-intro-videos",
+        "faster-iguana-hatch"
+      ]
+    },
+    {
+      "id": "cars",
+      "icon": "",
+      "titleRu": "Топ для машин",
+      "titleEn": "Best for cars",
+      "descRu": "Покупка машин по телефону, гараж, физика и управление, тюнинг и камера за рулём.",
+      "descEn": "Buying cars by phone, a garage, physics and handling, tuning and the driving camera.",
+      "mods": [
+        "virtual-car-dealer",
+        "garage",
+        "cyber-vehicle-overhaul",
+        "better-vehicle-handling",
+        "car-modification-shop",
+        "no-camera-auto-centering"
+      ]
+    }
+  ],
   "mods": [
     {
       "id": "cet",
@@ -844,6 +977,634 @@
       "requires": [],
       "page": "https://www.nexusmods.com/cyberpunk2077/mods/28744",
       "nexus": 28744
+    },
+    {
+      "id": "deceptious-bug-fixes",
+      "name": "Deceptious Bug Fixes",
+      "author": "Deceptious",
+      "category": "fixes",
+      "sub": "",
+      "descRu": "Сборник объективных исправлений багов: несколько старых модов-фиксов объединены в один архив, плюс новые исправления.",
+      "descEn": "A collection of non-subjective bug fixes: several older fix mods merged into one archive, plus new fixes.",
+      "requires": [
+        "archivexl",
+        "codeware",
+        "deceptious-quest-core",
+        "tweakxl"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/18318",
+      "nexus": 18318
+    },
+    {
+      "id": "status-bar-bug-fixes",
+      "name": "Status Bar Bug Fixes",
+      "author": "RMK",
+      "category": "fixes",
+      "sub": "",
+      "descRu": "Исправляет пять багов панели эффектов (баффы и дебаффы) и колеса оружия.",
+      "descEn": "Fixes five bugs in the status (buff and debuff) bar and the weapon wheel.",
+      "requires": [
+        "red4ext",
+        "redscript",
+        "tweakxl"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/4316",
+      "nexus": 4316
+    },
+    {
+      "id": "dark-future",
+      "name": "Dark Future - Urban Survival Gameplay",
+      "author": "Dark Fortune Teller",
+      "category": "gameplay",
+      "sub": "",
+      "descRu": "Большой мод выживания: базовые потребности, тревожность, зависимости и другие системы. Жизнь V в Найт-Сити становится сложнее и живее.",
+      "descEn": "A full survival and immersion mod: basic needs, anxiety, addiction and other systems. V's life in Night City gets harder and more alive.",
+      "noteRu": "Бери файл под свою версию игры: автор выкладывает сборку для 2.5.",
+      "noteEn": "Take the file for your game version: the author publishes a build for 2.5.",
+      "requires": [
+        "archivexl",
+        "codeware",
+        "input-loader",
+        "mod-settings",
+        "red4ext",
+        "redscript",
+        "tweakxl"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/16300",
+      "nexus": 16300
+    },
+    {
+      "id": "stealthrunner",
+      "name": "Stealthrunner - Stealth Gameplay Expansion",
+      "author": "RMK",
+      "category": "gameplay",
+      "sub": "stealth",
+      "descRu": "Расширение стелса: цели «Призрак», «Пацифист», «Без касаний» и другие почти в каждом задании и заказе — с наградами. Новое дерево перков для скрытного стиля (например, карманные кражи) и новые предметы.",
+      "descEn": "Stealth expansion: Ghost, Pacifist, No-Touch and other objectives in almost every quest and gig, with rewards. A new stealth perk tree (pickpocketing and more) and new items.",
+      "requires": [
+        "archivexl",
+        "codeware",
+        "input-loader",
+        "native-settings-ui",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "cet"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/7616",
+      "nexus": 7616
+    },
+    {
+      "id": "lifepath-bonuses",
+      "name": "Lifepath Bonuses and Gang-Corp Traits",
+      "author": "RMK",
+      "category": "gameplay",
+      "sub": "",
+      "descRu": "Переделывает систему урона: у каждой банды и корпорации свои особенности, а предыстория V даёт бонусы и штрафы против них. Гибко настраивается в своём меню.",
+      "descEn": "Reworks the damage system: every gang and corp gets its own traits, and V's lifepath gives bonuses and penalties against them. Highly configurable in its own menu.",
+      "requires": [
+        "native-settings-ui",
+        "redscript",
+        "cet"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/2217",
+      "nexus": 2217
+    },
+    {
+      "id": "damage-scaling",
+      "name": "Damage Scaling and Balance",
+      "author": "RMK",
+      "category": "gameplay",
+      "sub": "",
+      "descRu": "Множители урона для врагов и для игрока и другие настройки сложности (например, расход выносливости) — прямо в игре.",
+      "descEn": "Damage multipliers for enemies and the player plus other difficulty settings such as stamina use — configurable in game.",
+      "requires": [
+        "native-settings-ui",
+        "redscript",
+        "cet"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/1712",
+      "nexus": 1712
+    },
+    {
+      "id": "enemies-of-night-city",
+      "name": "Enemies of Night City",
+      "author": "viperc48",
+      "category": "gameplay",
+      "sub": "npc",
+      "descRu": "Полная переработка всех врагов, включая боссов: новые характеристики, приёмы и анимации.",
+      "descEn": "A complete overhaul of every enemy, bosses included: new stats, movesets and animations.",
+      "noteRu": "Нужно дополнение Phantom Liberty.",
+      "noteEn": "Needs the Phantom Liberty expansion.",
+      "requires": [
+        "cet",
+        "native-settings-ui",
+        "redscript"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/8467",
+      "nexus": 8467
+    },
+    {
+      "id": "new-game-plus",
+      "name": "New Game Plus - Native",
+      "author": "not_alphanine",
+      "category": "gameplay",
+      "sub": "",
+      "descRu": "Новая игра+: пройди историю заново с топовым снаряжением — с самого начала или сразу со встречи с Джонни.",
+      "descEn": "New Game Plus: replay the story with top-tier gear — from the very beginning or fast-tracked to the first meeting with Johnny.",
+      "requires": [
+        "archivexl",
+        "codeware",
+        "red4ext",
+        "redscript",
+        "tweakxl",
+        "mod-settings"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/15043",
+      "nexus": 15043
+    },
+    {
+      "id": "stealth-finishers",
+      "name": "Stealth Finishers (ZKV_Takedowns)",
+      "author": "Kvalyr",
+      "category": "gameplay",
+      "sub": "stealth",
+      "descRu": "Добивания холодным оружием как скрытные устранения — без захвата врага.",
+      "descEn": "Melee weapon finishers as stealth takedowns — no grapple needed.",
+      "requires": [
+        "cet",
+        "red4ext",
+        "redscript",
+        "enable-finisher-ragdolls"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/9360",
+      "nexus": 9360
+    },
+    {
+      "id": "enable-finisher-ragdolls",
+      "name": "Enable Finisher Ragdolls",
+      "author": "Kvalyr",
+      "category": "gameplay",
+      "sub": "",
+      "descRu": "После добивания враги падают по физике (рэгдолл), а не по застывшей анимации. Нужен для Stealth Finishers.",
+      "descEn": "NPCs killed with finishers collide and ragdoll instead of playing a fixed animation. Needed by Stealth Finishers.",
+      "requires": [
+        "redscript",
+        "red4ext"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/9496",
+      "nexus": 9496
+    },
+    {
+      "id": "ragdoll-physics-overhaul",
+      "name": "Ragdoll Physics Overhaul",
+      "author": "SketchCritic",
+      "category": "gameplay",
+      "sub": "",
+      "descRu": "С нуля переделаны все параметры физики тел (PhysX-рэгдолл), добавлена система «активного» рэгдолла и настройки в игре.",
+      "descEn": "Rebuilds every PhysX ragdoll parameter from the ground up, with an active ragdoll system and an in-game ragdoll suite.",
+      "requires": [],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/3858",
+      "nexus": 3858
+    },
+    {
+      "id": "kiroshi-night-vision",
+      "name": "Kiroshi Optics Night Vision Mod",
+      "author": "keanuWheeze",
+      "category": "gameplay",
+      "sub": "cyberware",
+      "descRu": "Режим ночного видения для оптики Kiroshi.",
+      "descEn": "Adds a night vision mode to Kiroshi optics.",
+      "requires": [
+        "codeware",
+        "native-settings-ui",
+        "cet"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/8326",
+      "nexus": 8326
+    },
+    {
+      "id": "zoomable-scopes",
+      "name": "Zoomable Scopes",
+      "author": "keanuWheeze",
+      "category": "gameplay",
+      "sub": "weapons",
+      "descRu": "Несколько уровней приближения у оптических прицелов — переключаются по кругу.",
+      "descEn": "Configurable zoom levels for scoped weapons that you cycle through.",
+      "requires": [
+        "native-settings-ui",
+        "cet"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/3543",
+      "nexus": 3543
+    },
+    {
+      "id": "reset-attributes",
+      "name": "Reset Attributes always available",
+      "author": "yakuzadeso",
+      "category": "gameplay",
+      "sub": "",
+      "descRu": "Сброс характеристик сколько угодно раз — даже если ты уже сбрасывал их до установки мода.",
+      "descEn": "Reset your attributes as many times as you want, even if you already respecced before installing the mod.",
+      "requires": [
+        "redscript"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/9240",
+      "nexus": 9240
+    },
+    {
+      "id": "faster-iguana-hatch",
+      "name": "Faster Iguana Hatch",
+      "author": "DJ_Kovrik",
+      "category": "gameplay",
+      "sub": "",
+      "descRu": "Яйцо игуаны вылупляется быстрее: вместо 90 дней — срок на выбор, короче.",
+      "descEn": "The iguana egg hatches sooner: instead of 90 days, a shorter period of your choice.",
+      "requires": [],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/5112",
+      "nexus": 5112
+    },
+    {
+      "id": "responsive-npcs",
+      "name": "Responsive NPCs",
+      "author": "MisterChedda",
+      "category": "world",
+      "sub": "npc",
+      "descRu": "Прохожие реагируют на V: важно, во что ты одет, на чём ездишь и что делаешь.",
+      "descEn": "Dynamic NPC reactions: what you wear, drive and do matters.",
+      "requires": [
+        "redscript",
+        "mod-settings"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/14800",
+      "nexus": 14800
+    },
+    {
+      "id": "sit-anywhere",
+      "name": "Sit Anywhere",
+      "author": "keanuWheeze",
+      "category": "world",
+      "sub": "",
+      "descRu": "Можно сесть почти где угодно.",
+      "descEn": "Lets you sit down almost anywhere you want.",
+      "requires": [
+        "native-settings-ui",
+        "cet"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/7299",
+      "nexus": 7299
+    },
+    {
+      "id": "immersive-bartenders",
+      "name": "Immersive Bartenders",
+      "author": "Deceptious",
+      "category": "world",
+      "sub": "",
+      "descRu": "У барменов можно по-настоящему выпить: напитки с анимацией прямо у стойки.",
+      "descEn": "Drinks you buy from bartenders are actually served and animated at the bar.",
+      "requires": [],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/7203",
+      "nexus": 7203
+    },
+    {
+      "id": "immersive-food-vendors",
+      "name": "Immersive Food Vendors",
+      "author": "Deceptious",
+      "category": "world",
+      "sub": "",
+      "descRu": "У уличных торговцев едой V по-настоящему перекусывает — с анимацией.",
+      "descEn": "V actually eats an animated snack when buying from food vendors.",
+      "requires": [
+        "red4ext",
+        "tweakxl",
+        "archivexl"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/7322",
+      "nexus": 7322
+    },
+    {
+      "id": "immersive-vik",
+      "name": "Immersive Vik",
+      "author": "Deceptious",
+      "category": "world",
+      "sub": "",
+      "descRu": "У Вика V садится в кресло риппера, когда ставит импланты или меняет внешность, а Вик анимирован.",
+      "descEn": "At Vik's, V actually sits in the ripper's chair for chrome or appearance work, and Vik is animated for it.",
+      "requires": [],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/6794",
+      "nexus": 6794
+    },
+    {
+      "id": "immersive-rippers",
+      "name": "Immersive Rippers - Dogtown",
+      "author": "Deceptious",
+      "category": "world",
+      "sub": "",
+      "descRu": "То же для риппердоков Догтауна: V садится в их кресла.",
+      "descEn": "The same for the Dogtown ripperdocs: V sits in their chairs.",
+      "noteRu": "Нужно дополнение Phantom Liberty.",
+      "noteEn": "Needs the Phantom Liberty expansion.",
+      "requires": [
+        "archivexl",
+        "red4ext"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/10255",
+      "nexus": 10255
+    },
+    {
+      "id": "pet-your-cat",
+      "name": "Pet Your Cat",
+      "author": "Deceptious",
+      "category": "world",
+      "sub": "",
+      "descRu": "Можно погладить кошку Нибблс в квартире V.",
+      "descEn": "Lets you pet Nibbles in V's apartment.",
+      "requires": [],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/6198",
+      "nexus": 6198
+    },
+    {
+      "id": "judy-romanced-enhanced",
+      "name": "Judy Romanced Enhanced",
+      "author": "Deceptious",
+      "category": "world",
+      "sub": "",
+      "descRu": "После романа с Джуди она больше не стоит у окна: несколько разных занятий в её квартире, объятия и поцелуй.",
+      "descEn": "Once romanced, Judy is no longer stuck at her window: several states in her apartment, plus hugs and a kiss.",
+      "requires": [],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/4508",
+      "nexus": 4508
+    },
+    {
+      "id": "romance-hangouts-enhanced",
+      "name": "Romance Hangouts Enhanced",
+      "author": "Deceptious",
+      "category": "world",
+      "sub": "",
+      "descRu": "Улучшения встреч с партнёром по роману (функция патча 2.1): например, объятия можно повторять. Автор продолжает добавлять новое.",
+      "descEn": "Quality-of-life updates for the patch 2.1 romance hangouts, starting with repeatable cuddles. Work in progress.",
+      "requires": [
+        "archivexl",
+        "red4ext"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/11590",
+      "nexus": 11590
+    },
+    {
+      "id": "edgerunners-mansion",
+      "name": "V's Edgerunners Mansion - Apartment DLC",
+      "author": "keanuWheeze",
+      "category": "world",
+      "sub": "",
+      "descRu": "Особняк V, который можно купить: с новыми действиями — сесть, спать, гардероб, душ.",
+      "descEn": "Buy and use V's mansion, with new sitting, sleeping, wardrobe and shower interactions.",
+      "requires": [
+        "archivexl",
+        "cet",
+        "native-interactions-framework"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/5437",
+      "nexus": 5437
+    },
+    {
+      "id": "stock-market",
+      "name": "Stock Market and News System",
+      "author": "keanuWheeze, scornthegreat",
+      "category": "world",
+      "sub": "",
+      "descRu": "Рабочая биржа, которая реагирует на задания и действия игрока, и лента новостей о том же.",
+      "descEn": "A working stock market that reacts to quests and player actions, plus a news feed based on them.",
+      "requires": [
+        "cet"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/6319",
+      "nexus": 6319
+    },
+    {
+      "id": "enable-advert-animations",
+      "name": "Enable Advert Animations (Ads)",
+      "author": "EmreHQ",
+      "category": "world",
+      "sub": "",
+      "descRu": "Оживляет рекламу: ролики проигрываются там, где в игре они застывали, и анимированной рекламы становится больше.",
+      "descEn": "Ads play their animation in the areas where the game kept them static, and more animated ads appear.",
+      "requires": [],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/13014",
+      "nexus": 13014
+    },
+    {
+      "id": "hd-reworked",
+      "name": "Cyberpunk 2077 HD Reworked Project",
+      "author": "Halk Hogan PL",
+      "category": "graphics",
+      "sub": "",
+      "descRu": "Текстуры и модели в лучшем качестве с сохранением оригинального стиля и производительности. От автора Witcher 3 HD Reworked.",
+      "descEn": "Reworks game assets to better quality while keeping the original art style and good performance. By the author of The Witcher 3 HD Reworked Project.",
+      "requires": [],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/7652",
+      "nexus": 7652
+    },
+    {
+      "id": "enhanced-weather",
+      "name": "Enhanced Weather V6",
+      "author": "Knochey",
+      "category": "graphics",
+      "sub": "",
+      "descRu": "Больше разнообразия погоды и переработанный вид некоторых её типов.",
+      "descEn": "More weather variety and reworked visuals for some weather types.",
+      "requires": [
+        "vanilla-lighting-tweaks"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/3901",
+      "nexus": 3901
+    },
+    {
+      "id": "vanilla-lighting-tweaks",
+      "name": "Vanilla Lighting Tweaks",
+      "author": "sosuinepsixuyu",
+      "category": "graphics",
+      "sub": "",
+      "descRu": "Правки стандартного освещения. Enhanced Weather указывает этот мод как обязательный.",
+      "descEn": "Tweaks to the vanilla lighting. Enhanced Weather lists it as a requirement.",
+      "requires": [
+        "archivexl",
+        "red4ext"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/10642",
+      "nexus": 10642
+    },
+    {
+      "id": "better-finer-rain",
+      "name": "Blade Runner 2077 Better Finer Rain",
+      "author": "AK47OG",
+      "category": "graphics",
+      "sub": "",
+      "descRu": "Более реалистичный и мелкий дождь. Автор пишет, что подходит для всех версий игры.",
+      "descEn": "More realistic, finer rain. The author says it works with every game version.",
+      "requires": [],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/2001",
+      "nexus": 2001
+    },
+    {
+      "id": "preem-water",
+      "name": "Preem Water 2.0",
+      "author": "CyanideX",
+      "category": "graphics",
+      "sub": "",
+      "descRu": "Более естественная вода, на выбор несколько вариантов.",
+      "descEn": "More natural-looking water, with a few options to choose from.",
+      "requires": [],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/8275",
+      "nexus": 8275
+    },
+    {
+      "id": "improved-environment-lods",
+      "name": "Improved Environment LODs",
+      "author": "sosuinepsixuyu",
+      "category": "graphics",
+      "sub": "",
+      "descRu": "Повышает детализацию дальних объектов (LOD).",
+      "descEn": "Increases the level of detail of distant objects.",
+      "requires": [
+        "codeware",
+        "red4ext",
+        "redscript",
+        "mod-settings"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/4923",
+      "nexus": 4923
+    },
+    {
+      "id": "dirt-begone",
+      "name": "Dirt Begone (Clean Mirrors)",
+      "author": "CyanideX",
+      "category": "graphics",
+      "sub": "",
+      "descRu": "Убирает грязь (например, на зеркалах), отключает пиксельную сетку, отражения в полном разрешении с DLSS и варианты минимального HUD.",
+      "descEn": "Removes dirt, disables the pixel grid, full-resolution DLSS reflections and minimal HUD options.",
+      "requires": [],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/8131",
+      "nexus": 8131
+    },
+    {
+      "id": "in-world-navigation",
+      "name": "In-World Navigation",
+      "author": "Jack Humbert",
+      "category": "ui",
+      "sub": "hud",
+      "descRu": "Голографические стрелки маршрута прямо в мире — повторяют точки с мини-карты до цели задания.",
+      "descEn": "In-world holographic arrows for quest and point-of-interest navigation, mirroring the dots on the minimap.",
+      "requires": [
+        "red4ext",
+        "redscript",
+        "mod-settings"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/4583",
+      "nexus": 4583
+    },
+    {
+      "id": "stash-filters",
+      "name": "Stash Filters",
+      "author": "DJ_Kovrik",
+      "category": "ui",
+      "sub": "menu",
+      "descRu": "Фильтры по категориям в списке тайника.",
+      "descEn": "Adds category filters to your stash item list.",
+      "requires": [
+        "redscript",
+        "red4ext",
+        "codeware"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/5298",
+      "nexus": 5298
+    },
+    {
+      "id": "clear-skill-checks",
+      "name": "Clear Skill Checks",
+      "author": "RMK",
+      "category": "ui",
+      "sub": "",
+      "descRu": "В пройденных проверках навыков в диалогах видно, какой уровень характеристики требовался (игра показывает только твой).",
+      "descEn": "Shows which attribute level a passed dialogue skill check required (the game only shows your current level).",
+      "requires": [
+        "redscript"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/2805",
+      "nexus": 2805
+    },
+    {
+      "id": "simple-untrack-quest",
+      "name": "Simple untrack quest",
+      "author": "Angelore",
+      "category": "ui",
+      "sub": "",
+      "descRu": "Снять отслеживание задания так же, как поставить, — правой кнопкой на карте.",
+      "descEn": "Untrack quests the same way you track them — by right-clicking on the map.",
+      "requires": [
+        "redscript"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/5177",
+      "nexus": 5177
+    },
+    {
+      "id": "quickhacks-sort",
+      "name": "Quickhacks sort by slot",
+      "author": "nobo",
+      "category": "ui",
+      "sub": "",
+      "descRu": "Скрипты (квикхаки) сортируются по слоту.",
+      "descEn": "Quickhacks are sorted by slot.",
+      "requires": [
+        "redscript"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/11425",
+      "nexus": 11425
+    },
+    {
+      "id": "nsui-side-menu",
+      "name": "Native Settings UI Side Menu Add-on",
+      "author": "anygoodname",
+      "category": "ui",
+      "sub": "menu",
+      "descRu": "Боковое меню со списком модов в настройках — удобно, когда модов много.",
+      "descEn": "A side menu with a list of mods in the settings for easier navigation.",
+      "requires": [
+        "archivexl",
+        "cet",
+        "native-settings-ui",
+        "red4ext"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/16218",
+      "nexus": 16218
+    },
+    {
+      "id": "realistic-map",
+      "name": "Realistic Map",
+      "author": "SvenVH",
+      "category": "ui",
+      "sub": "",
+      "descRu": "Карта мира заменяется детальным рендером настоящей местности высокого разрешения.",
+      "descEn": "Replaces the default map with a detailed high-res 2D render of the actual map.",
+      "noteRu": "Есть файлы 4k, 8k, 16k и 32k — бери под свою видеокарту.",
+      "noteEn": "Comes in 4k, 8k, 16k and 32k files — pick one to suit your graphics card.",
+      "requires": [],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/17811",
+      "nexus": 17811
+    },
+    {
+      "id": "no-camera-auto-centering",
+      "name": "No Camera Auto Centering",
+      "author": "DJ_Kovrik",
+      "category": "cars",
+      "sub": "camera",
+      "descRu": "Камера за рулём больше не возвращается сама к центру — ни от третьего, ни от первого лица.",
+      "descEn": "Disables camera auto-centering while driving in third- or first-person view.",
+      "requires": [
+        "red4ext",
+        "tweakxl"
+      ],
+      "page": "https://www.nexusmods.com/cyberpunk2077/mods/2169",
+      "nexus": 2169
     }
   ]
 }
