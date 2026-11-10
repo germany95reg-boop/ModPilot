@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.15.2-beta
+
+- Packaging only, the program itself is unchanged: ModPilot.exe is no longer compressed inside, and the WPF native libraries ship next to it instead of being unpacked to the temporary folder at every start. Some virus scanners took the compressed, self-unpacking file for a packer and marked it suspicious. The exe is bigger; the download size is about the same.
+
 ## 1.15.1-beta
 
 - Soft motion: windows and pages fade in, Cyberpunk 2077 and RDR 2 tabs slide in a little, mod, car and catalog lists appear row by row. Nothing moves when "Show animations" is off in Windows.

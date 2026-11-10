@@ -6,9 +6,9 @@
 
 Drop a mod in. ModPilot works out what it is, tells you what else it needs, shows exactly what will change, installs it without touching the game's original files — and takes it back out with one click.
 
-> Version **1.15.1-beta** · Windows 10 / 11 (64-bit) · 10 languages · free
+> Version **1.15.2-beta** · Windows 10 / 11 (64-bit) · 10 languages · free
 >
-> New: soft interface motion; bug reports through a protected relay (reports from 1.15.0 don't reach the author — please update). In 1.15: any mod installs in GTA V and Cyberpunk 2077 with a plain-words review, update a mod over itself, top lists in every catalog, Cyberpunk save copies. Full list: [CHANGELOG.md](CHANGELOG.md).
+> New: the exe is no longer compressed inside (fewer false antivirus alarms); soft interface motion; bug reports through a protected relay (reports from 1.15.0 don't reach the author — please update). In 1.15: any mod installs in GTA V and Cyberpunk 2077 with a plain-words review, update a mod over itself, top lists in every catalog, Cyberpunk save copies. Full list: [CHANGELOG.md](CHANGELOG.md).
 
 **[Download the latest release](https://github.com/germany95reg-boop/ModPilot/releases)**
 
